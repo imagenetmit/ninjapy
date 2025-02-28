@@ -19,6 +19,12 @@ dev = [
     "mypy==1.14.1",
     "pylint==3.2.3",
     "types-python-dateutil==2.9.0.20240316",
+    "pytest-asyncio>=0.21.0",
+    "ruff>=0.3.0",
+    "black>=24.2.0",
+    "isort>=5.13.0",
+    "bandit>=1.7.7",
+    "pytest-cov>=4.1.0"
 ]
 
 [tool.poetry]
@@ -45,8 +51,11 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
-asyncio_default_fixture_loop_scope = "function"
 pythonpath = ["src"]
+
+# pytest-asyncio configuration
+asyncio_mode = "strict"
+asyncio_fixture_loop_scope = "function"  # Explicitly set the loop scope as recommended
 
 [tool.mypy]
 disable_error_code = "misc"
@@ -62,5 +71,33 @@ ignore_missing_imports = true
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
+
+# Add configuration for the new tools
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+select = ["E", "F", "B", "I", "N", "UP", "PL", "RUF"]
+
+[tool.coverage.run]
+source = ["src/ninjapy"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+]
 
 
