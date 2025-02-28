@@ -1,0 +1,16 @@
+# GetDeviceUsageReferences
+
+Expanded entity references
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `organization`                                                                         | [Optional[models.GetDeviceUsageOrganization]](../models/getdeviceusageorganization.md) | :heavy_minus_sign:                                                                     | Organization                                                                           |
+| `location`                                                                             | [Optional[models.GetDeviceUsageLocation]](../models/getdeviceusagelocation.md)         | :heavy_minus_sign:                                                                     | Location                                                                               |
+| `role_policy`                                                                          | [Optional[models.GetDeviceUsageRolePolicy]](../models/getdeviceusagerolepolicy.md)     | :heavy_minus_sign:                                                                     | Assigned policy (overrides organization and location policy mapping)                   |
+| `policy`                                                                               | [Optional[models.GetDeviceUsagePolicy]](../models/getdeviceusagepolicy.md)             | :heavy_minus_sign:                                                                     | Assigned policy (overrides organization and location policy mapping)                   |
+| `role`                                                                                 | [Optional[models.GetDeviceUsageRole]](../models/getdeviceusagerole.md)                 | :heavy_minus_sign:                                                                     | Device Role                                                                            |
+| `backup_usage`                                                                         | [Optional[models.GetDeviceUsageBackupUsage]](../models/getdeviceusagebackupusage.md)   | :heavy_minus_sign:                                                                     | Device Backup Usage                                                                    |
+| `warranty`                                                                             | [Optional[models.GetDeviceUsageWarranty]](../models/getdeviceusagewarranty.md)         | :heavy_minus_sign:                                                                     | Warranty Info                                                                          |

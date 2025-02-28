@@ -1,0 +1,10 @@
+# CreateRelatedItemRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `entity_type`                                                                                    | [models.CreateRelatedItemPathParamEntityType](../models/createrelateditempathparamentitytype.md) | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `entity_id`                                                                                      | *int*                                                                                            | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `request_body`                                                                                   | [Optional[models.CreateRelatedItemRequestBody]](../models/createrelateditemrequestbody.md)       | :heavy_minus_sign:                                                                               | N/A                                                                                              |

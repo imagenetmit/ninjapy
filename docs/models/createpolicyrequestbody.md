@@ -1,0 +1,12 @@
+# CreatePolicyRequestBody
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `parent_policy_id`                                                           | *Optional[int]*                                                              | :heavy_minus_sign:                                                           | Parent Policy identifier                                                     |
+| `name`                                                                       | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Name                                                                         |
+| `description`                                                                | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Description                                                                  |
+| `node_class`                                                                 | [Optional[models.CreatePolicyNodeClass]](../models/createpolicynodeclass.md) | :heavy_minus_sign:                                                           | Node Class                                                                   |
+| `enabled`                                                                    | *Optional[bool]*                                                             | :heavy_minus_sign:                                                           | Policy Enabled Flag                                                          |

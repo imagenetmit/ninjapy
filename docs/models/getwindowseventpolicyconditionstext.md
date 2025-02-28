@@ -1,0 +1,12 @@
+# GetWindowsEventPolicyConditionsText
+
+Windows event policy condition text
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `values`                                                                                                           | List[*str*]                                                                                                        | :heavy_minus_sign:                                                                                                 | Text values                                                                                                        |
+| `condition`                                                                                                        | [Optional[models.GetWindowsEventPolicyConditionsCondition]](../models/getwindowseventpolicyconditionscondition.md) | :heavy_minus_sign:                                                                                                 | Text condition                                                                                                     |
+| `include`                                                                                                          | [Optional[models.GetWindowsEventPolicyConditionsInclude]](../models/getwindowseventpolicyconditionsinclude.md)     | :heavy_minus_sign:                                                                                                 | Text include                                                                                                       |

@@ -1,0 +1,9 @@
+# UploadTempAttachmentsRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `entity_type`                                                                                      | [Optional[models.EntityType]](../models/entitytype.md)                                             | :heavy_minus_sign:                                                                                 | N/A                                                                                                |
+| `request_body`                                                                                     | [Optional[models.UploadTempAttachmentsRequestBody]](../models/uploadtempattachmentsrequestbody.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

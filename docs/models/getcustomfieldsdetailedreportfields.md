@@ -1,0 +1,13 @@
+# GetCustomFieldsDetailedReportFields
+
+Field values
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `name`                                                                                                 | *Optional[str]*                                                                                        | :heavy_minus_sign:                                                                                     | Field name                                                                                             |
+| `value`                                                                                                | [Optional[models.GetCustomFieldsDetailedReportValue]](../models/getcustomfieldsdetailedreportvalue.md) | :heavy_minus_sign:                                                                                     | Field Value                                                                                            |
+| `updated_by`                                                                                           | [Optional[models.UpdatedBy]](../models/updatedby.md)                                                   | :heavy_minus_sign:                                                                                     | Value source (who/what updated the value)                                                              |
+| `update_time`                                                                                          | *Optional[float]*                                                                                      | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |

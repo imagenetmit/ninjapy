@@ -1,0 +1,12 @@
+# UploadKnowledgeBaseArticlesAttachments
+
+Lists the files associated with the article
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `id`                                                                                                             | *Optional[int]*                                                                                                  | :heavy_minus_sign:                                                                                               | Identifier                                                                                                       |
+| `upload_status`                                                                                                  | [Optional[models.UploadKnowledgeBaseArticlesUploadStatus]](../models/uploadknowledgebasearticlesuploadstatus.md) | :heavy_minus_sign:                                                                                               | Upload status                                                                                                    |
+| `metadata`                                                                                                       | [Optional[models.UploadKnowledgeBaseArticlesMetadata]](../models/uploadknowledgebasearticlesmetadata.md)         | :heavy_minus_sign:                                                                                               | Attachment metadata                                                                                              |

@@ -1,0 +1,9 @@
+# UpdateNodeAttributeValuesRequest
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `id`                                                                                                        | *int*                                                                                                       | :heavy_check_mark:                                                                                          | Device identifier                                                                                           |
+| `request_body`                                                                                              | Dict[str, [models.UpdateNodeAttributeValuesRequestBody](../models/updatenodeattributevaluesrequestbody.md)] | :heavy_minus_sign:                                                                                          | N/A                                                                                                         |

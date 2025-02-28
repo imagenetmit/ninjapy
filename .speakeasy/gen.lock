@@ -1,0 +1,2839 @@
+lockVersion: 2.0.0
+id: 5ae107b0-7341-400d-bb16-b6367f154a9e
+management:
+  docChecksum: 1ec2c672afca7a71df266226766bcf36
+  docVersion: 2.0.9-draft
+  speakeasyVersion: 1.507.0
+  generationVersion: 2.533.0
+  releaseVersion: 0.0.1
+  configChecksum: 323abcd754439b9dd25a199b3840ba67
+features:
+  python:
+    additionalDependencies: 1.0.0
+    constsAndDefaults: 1.0.5
+    core: 5.12.1
+    defaultEnabledRetries: 0.2.0
+    devContainers: 3.0.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.3.2
+    flatRequests: 1.0.1
+    flattening: 3.1.1
+    globalSecurity: 3.0.3
+    globalSecurityCallbacks: 1.0.0
+    inputOutputModels: 3.0.0
+    methodArguments: 1.0.2
+    multipartFileContentType: 1.0.0
+    nullables: 1.0.1
+    responseFormat: 1.0.1
+    retries: 3.0.2
+    sdkHooks: 1.0.1
+    uploadStreams: 1.0.0
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .python-version
+  - .vscode/settings.json
+  - USAGE.md
+  - docs/models/action.md
+  - docs/models/activities.md
+  - docs/models/activityresult.md
+  - docs/models/activitytype.md
+  - docs/models/all.md
+  - docs/models/anyt.md
+  - docs/models/apipermission.md
+  - docs/models/approvalstatus.md
+  - docs/models/appusercontacttype.md
+  - docs/models/archivechecklisttemplatechecklisttemplatesdescription.md
+  - docs/models/archivechecklisttemplatedescription.md
+  - docs/models/archivechecklisttemplateresponsebody.md
+  - docs/models/archivechecklisttemplatetasks.md
+  - docs/models/archiveclientdocumentfields.md
+  - docs/models/archiveclientdocumentrequest.md
+  - docs/models/archiveclientdocumentresponsebody.md
+  - docs/models/archiveclientdocumentvalue.md
+  - docs/models/archivedby.md
+  - docs/models/archivedocumenttemplaterequest.md
+  - docs/models/archivemultipageclientdocumentsfields.md
+  - docs/models/archivemultipageclientdocumentsresponsebody.md
+  - docs/models/archivemultipageclientdocumentsvalue.md
+  - docs/models/archiveorganizationchecklistsarchivedby.md
+  - docs/models/archiveorganizationchecklistsassignedto.md
+  - docs/models/archiveorganizationchecklistsdescription.md
+  - docs/models/archiveorganizationchecklistslastupdatedby.md
+  - docs/models/archiveorganizationchecklistsorganizationchecklistsdescription.md
+  - docs/models/archiveorganizationchecklistsresponsebody.md
+  - docs/models/archiveorganizationcheckliststasks.md
+  - docs/models/assignedto.md
+  - docs/models/attachments.md
+  - docs/models/attributes.md
+  - docs/models/attributevalues.md
+  - docs/models/automation.md
+  - docs/models/avinstallstatus.md
+  - docs/models/backupusage.md
+  - docs/models/bitlockerstatus.md
+  - docs/models/bodypart.md
+  - docs/models/bodypartcontentdisposition.md
+  - docs/models/bodypartentity.md
+  - docs/models/bodypartmediatype.md
+  - docs/models/bodypartmessagebodyworkers.md
+  - docs/models/bodypartproviders.md
+  - docs/models/canceldevicemaintenancerequest.md
+  - docs/models/categories.md
+  - docs/models/cc.md
+  - docs/models/cclist.md
+  - docs/models/changediff.md
+  - docs/models/chassistype.md
+  - docs/models/class_.md
+  - docs/models/comment.md
+  - docs/models/completedby.md
+  - docs/models/condition.md
+  - docs/models/conditions.md
+  - docs/models/configurewebhookrequestbody.md
+  - docs/models/contentdisposition.md
+  - docs/models/controlwindowsservicerequest.md
+  - docs/models/controlwindowsservicerequestbody.md
+  - docs/models/conversionstatus.md
+  - docs/models/createchecklisttemplatesarchivedby.md
+  - docs/models/createchecklisttemplateschecklisttemplatesdescription.md
+  - docs/models/createchecklisttemplateschecklisttemplatesresponse200description.md
+  - docs/models/createchecklisttemplateschecklisttemplatesresponsedescription.md
+  - docs/models/createchecklisttemplateschecklisttemplatestasks.md
+  - docs/models/createchecklisttemplatesdescription.md
+  - docs/models/createchecklisttemplateslastupdatedby.md
+  - docs/models/createchecklisttemplatesrequestbody.md
+  - docs/models/createchecklisttemplatesresponsebody.md
+  - docs/models/createchecklisttemplatestasks.md
+  - docs/models/createcommentfiles.md
+  - docs/models/createcommentrequest.md
+  - docs/models/createcommentrequestbody.md
+  - docs/models/createcustomfieldspolicyconditioninheritance.md
+  - docs/models/createcustomfieldspolicyconditionmanagementoperator.md
+  - docs/models/createcustomfieldspolicyconditionmanagementresponseoperator.md
+  - docs/models/createcustomfieldspolicyconditionmatchall.md
+  - docs/models/createcustomfieldspolicyconditionmatchany.md
+  - docs/models/createcustomfieldspolicyconditionnotificationaction.md
+  - docs/models/createcustomfieldspolicyconditionoperator.md
+  - docs/models/createcustomfieldspolicyconditionpriority.md
+  - docs/models/createcustomfieldspolicyconditionrequest.md
+  - docs/models/createcustomfieldspolicyconditionrequestbody.md
+  - docs/models/createcustomfieldspolicyconditionresponsebody.md
+  - docs/models/createcustomfieldspolicyconditionrunas.md
+  - docs/models/createcustomfieldspolicyconditionscripts.md
+  - docs/models/createcustomfieldspolicyconditionscriptvariables.md
+  - docs/models/createcustomfieldspolicyconditionseverity.md
+  - docs/models/createdescription.md
+  - docs/models/createdocumenttemplateadvancedsettings.md
+  - docs/models/createdocumenttemplatearchivedby.md
+  - docs/models/createdocumenttemplatecomplexityrules.md
+  - docs/models/createdocumenttemplatedatefilters.md
+  - docs/models/createdocumenttemplatedocumenttemplatesfields.md
+  - docs/models/createdocumenttemplatefieldapipermission.md
+  - docs/models/createdocumenttemplatefieldcontent.md
+  - docs/models/createdocumenttemplatefieldscriptpermission.md
+  - docs/models/createdocumenttemplatefieldtechnicianpermission.md
+  - docs/models/createdocumenttemplatefieldtype.md
+  - docs/models/createdocumenttemplateipaddresstype.md
+  - docs/models/createdocumenttemplatenodeclass.md
+  - docs/models/createdocumenttemplatenumericrange.md
+  - docs/models/createdocumenttemplateresponsebody.md
+  - docs/models/createdocumenttemplatetype.md
+  - docs/models/createdocumenttemplateuielementtype.md
+  - docs/models/createdocumenttemplatevalues.md
+  - docs/models/createknowledgebasearticlescontent.md
+  - docs/models/createknowledgebasearticlesmetadata.md
+  - docs/models/createknowledgebasearticlesresponsebody.md
+  - docs/models/createlocationfororganizationfields.md
+  - docs/models/createlocationfororganizationmanagementfields.md
+  - docs/models/createlocationfororganizationrequest.md
+  - docs/models/createlocationfororganizationrequestbody.md
+  - docs/models/createlocationfororganizationresponsebody.md
+  - docs/models/createorganizationbackup.md
+  - docs/models/createorganizationchecklistsarchivedby.md
+  - docs/models/createorganizationchecklistsassignedto.md
+  - docs/models/createorganizationchecklistscompletedby.md
+  - docs/models/createorganizationchecklistsdescription.md
+  - docs/models/createorganizationchecklistsfromtemplatesarchivedby.md
+  - docs/models/createorganizationchecklistsfromtemplatesassignedto.md
+  - docs/models/createorganizationchecklistsfromtemplatescompletedby.md
+  - docs/models/createorganizationchecklistsfromtemplatesdescription.md
+  - docs/models/createorganizationchecklistsfromtemplateslastupdatedby.md
+  - docs/models/createorganizationchecklistsfromtemplatesorganizationchecklistsassignedto.md
+  - docs/models/createorganizationchecklistsfromtemplatesorganizationchecklistsdescription.md
+  - docs/models/createorganizationchecklistsfromtemplatesrequest.md
+  - docs/models/createorganizationchecklistsfromtemplatesresponsebody.md
+  - docs/models/createorganizationchecklistsfromtemplatestasks.md
+  - docs/models/createorganizationchecklistslastupdatedby.md
+  - docs/models/createorganizationchecklistsorganizationchecklistsassignedto.md
+  - docs/models/createorganizationchecklistsorganizationchecklistsdescription.md
+  - docs/models/createorganizationchecklistsorganizationchecklistsresponse200description.md
+  - docs/models/createorganizationchecklistsorganizationchecklistsresponsedescription.md
+  - docs/models/createorganizationchecklistsorganizationcheckliststasks.md
+  - docs/models/createorganizationchecklistsrequestbody.md
+  - docs/models/createorganizationchecklistsresponsebody.md
+  - docs/models/createorganizationcheckliststasks.md
+  - docs/models/createorganizationdocumentfields.md
+  - docs/models/createorganizationdocumentorganizationdocumentsfields.md
+  - docs/models/createorganizationdocumentrequest.md
+  - docs/models/createorganizationdocumentrequestbody.md
+  - docs/models/createorganizationdocumentresponsebody.md
+  - docs/models/createorganizationdocumentsfields.md
+  - docs/models/createorganizationdocumentsorganizationdocumentsfields.md
+  - docs/models/createorganizationdocumentsrequestbody.md
+  - docs/models/createorganizationdocumentsresponsebody.md
+  - docs/models/createorganizationdocumentsvalue.md
+  - docs/models/createorganizationdocumentvalue.md
+  - docs/models/createorganizationfields.md
+  - docs/models/createorganizationlocations.md
+  - docs/models/createorganizationmanagementfields.md
+  - docs/models/createorganizationmanagementoptions.md
+  - docs/models/createorganizationmanagementresponsedefaultoptions.md
+  - docs/models/createorganizationmanagementresponsefields.md
+  - docs/models/createorganizationmanagementresponseoptions.md
+  - docs/models/createorganizationnodeapprovalmode.md
+  - docs/models/createorganizationoptions.md
+  - docs/models/createorganizationpolicies.md
+  - docs/models/createorganizationrequest.md
+  - docs/models/createorganizationrequestbody.md
+  - docs/models/createorganizationresponsebody.md
+  - docs/models/createpolicyfields.md
+  - docs/models/createpolicymanagementnodeclass.md
+  - docs/models/createpolicynodeclass.md
+  - docs/models/createpolicyrequest.md
+  - docs/models/createpolicyrequestbody.md
+  - docs/models/createpolicyresponsebody.md
+  - docs/models/createpriority.md
+  - docs/models/createrelateditemcontentdisposition.md
+  - docs/models/createrelateditementity.md
+  - docs/models/createrelateditementitytype.md
+  - docs/models/createrelateditemforentity1entity.md
+  - docs/models/createrelateditemforentity1entitytype.md
+  - docs/models/createrelateditemforentity1pathparamentitytype.md
+  - docs/models/createrelateditemforentity1relateditemsrelentitytype.md
+  - docs/models/createrelateditemforentity1relentity.md
+  - docs/models/createrelateditemforentity1request.md
+  - docs/models/createrelateditemforentity1responsebody.md
+  - docs/models/createrelateditemforentity1type.md
+  - docs/models/createrelateditemforentity1value.md
+  - docs/models/createrelateditemforentityentity.md
+  - docs/models/createrelateditemforentityentitytype.md
+  - docs/models/createrelateditemforentitypathparamentitytype.md
+  - docs/models/createrelateditemforentityrelentity.md
+  - docs/models/createrelateditemforentityrelentitytype.md
+  - docs/models/createrelateditemforentityrequest.md
+  - docs/models/createrelateditemforentityresponsebody.md
+  - docs/models/createrelateditemforentitytype.md
+  - docs/models/createrelateditemforentityvalue.md
+  - docs/models/createrelateditemformdatacontentdisposition.md
+  - docs/models/createrelateditemmediatype.md
+  - docs/models/createrelateditemmessagebodyworkers.md
+  - docs/models/createrelateditemparameterizedheaders.md
+  - docs/models/createrelateditemparent.md
+  - docs/models/createrelateditempathparamentitytype.md
+  - docs/models/createrelateditemproviders.md
+  - docs/models/createrelateditemrelateditemscontentdisposition.md
+  - docs/models/createrelateditemrelateditemsentity.md
+  - docs/models/createrelateditemrelateditemsmediatype.md
+  - docs/models/createrelateditemrelateditemsmessagebodyworkers.md
+  - docs/models/createrelateditemrelateditemsparameterizedheaders.md
+  - docs/models/createrelateditemrelateditemsproviders.md
+  - docs/models/createrelateditemrelateditemsresponseentity.md
+  - docs/models/createrelateditemrelentitytype.md
+  - docs/models/createrelateditemrequest.md
+  - docs/models/createrelateditemrequestbody.md
+  - docs/models/createrelateditemresponsebody.md
+  - docs/models/createrelateditemtype.md
+  - docs/models/createrequestbody.md
+  - docs/models/createresponsebody.md
+  - docs/models/createsecurerelateditemforentityentity.md
+  - docs/models/createsecurerelateditemforentityentitytype.md
+  - docs/models/createsecurerelateditemforentitypathparamentitytype.md
+  - docs/models/createsecurerelateditemforentityrelentity.md
+  - docs/models/createsecurerelateditemforentityrelentitytype.md
+  - docs/models/createsecurerelateditemforentityrequest.md
+  - docs/models/createsecurerelateditemforentityresponsebody.md
+  - docs/models/createsecurerelateditemforentitytype.md
+  - docs/models/createsecurerelateditemforentityvalue.md
+  - docs/models/createseverity.md
+  - docs/models/createticketingpriority.md
+  - docs/models/createticketingseverity.md
+  - docs/models/createticketingtype.md
+  - docs/models/createtype.md
+  - docs/models/createvalue.md
+  - docs/models/createwindowseventpolicyconditioncondition.md
+  - docs/models/createwindowseventpolicyconditioninclude.md
+  - docs/models/createwindowseventpolicyconditioninheritance.md
+  - docs/models/createwindowseventpolicyconditionmanagementnotificationaction.md
+  - docs/models/createwindowseventpolicyconditionmanagementpriority.md
+  - docs/models/createwindowseventpolicyconditionmanagementrunas.md
+  - docs/models/createwindowseventpolicyconditionmanagementscripts.md
+  - docs/models/createwindowseventpolicyconditionmanagementscriptvariables.md
+  - docs/models/createwindowseventpolicyconditionmanagementseverity.md
+  - docs/models/createwindowseventpolicyconditionnotificationaction.md
+  - docs/models/createwindowseventpolicyconditionoccurrence.md
+  - docs/models/createwindowseventpolicyconditionpriority.md
+  - docs/models/createwindowseventpolicyconditionrequest.md
+  - docs/models/createwindowseventpolicyconditionrequestbody.md
+  - docs/models/createwindowseventpolicyconditionresponsebody.md
+  - docs/models/createwindowseventpolicyconditionrunas.md
+  - docs/models/createwindowseventpolicyconditionscripts.md
+  - docs/models/createwindowseventpolicyconditionscriptvariables.md
+  - docs/models/createwindowseventpolicyconditionseverity.md
+  - docs/models/createwindowseventpolicyconditiontext.md
+  - docs/models/credentials.md
+  - docs/models/cursor.md
+  - docs/models/data.md
+  - docs/models/definitionscope.md
+  - docs/models/deletechecklisttemplaterequest.md
+  - docs/models/deleteclientchecklistrequest.md
+  - docs/models/deleteclientdocumentrequest.md
+  - docs/models/deletedocumenttemplaterequest.md
+  - docs/models/deletepolicyconditionrequest.md
+  - docs/models/deleterelateditemrequest.md
+  - docs/models/deleterelateditemspathparamentitytype.md
+  - docs/models/deleterelateditemsrequest.md
+  - docs/models/description.md
+  - docs/models/device.md
+  - docs/models/direction.md
+  - docs/models/disabledfeatures.md
+  - docs/models/downloadknowledgebasearticlerequest.md
+  - docs/models/downloadrelateditemattachmentrequest.md
+  - docs/models/encryptionmethod.md
+  - docs/models/endusercustomization.md
+  - docs/models/enduserpermission.md
+  - docs/models/entity.md
+  - docs/models/entitytype.md
+  - docs/models/fields.md
+  - docs/models/file.md
+  - docs/models/files.md
+  - docs/models/fileuploadstatus.md
+  - docs/models/filters.md
+  - docs/models/formdatacontentdisposition.md
+  - docs/models/getactivejobsapprovalstatus.md
+  - docs/models/getactivejobsbackupusage.md
+  - docs/models/getactivejobschassistype.md
+  - docs/models/getactivejobsdevice.md
+  - docs/models/getactivejobsfields.md
+  - docs/models/getactivejobsjobresult.md
+  - docs/models/getactivejobsjobstatus.md
+  - docs/models/getactivejobsjobtype.md
+  - docs/models/getactivejobslocation.md
+  - docs/models/getactivejobsmaintenance.md
+  - docs/models/getactivejobsnodeapprovalmode.md
+  - docs/models/getactivejobsnodeclass.md
+  - docs/models/getactivejobsorganization.md
+  - docs/models/getactivejobspolicy.md
+  - docs/models/getactivejobspsaticketid.md
+  - docs/models/getactivejobsreferences.md
+  - docs/models/getactivejobsrequest.md
+  - docs/models/getactivejobsresponsebody.md
+  - docs/models/getactivejobsrole.md
+  - docs/models/getactivejobsrolepolicy.md
+  - docs/models/getactivejobssourcetype.md
+  - docs/models/getactivejobsstatus.md
+  - docs/models/getactivejobssystemfields.md
+  - docs/models/getactivejobssystemnodeclass.md
+  - docs/models/getactivejobssystemresponsedefaultapplicationjsonfields.md
+  - docs/models/getactivejobssystemresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getactivejobssystemresponsedefaultfields.md
+  - docs/models/getactivejobssystemresponsedefaultnodeclass.md
+  - docs/models/getactivejobssystemresponsefields.md
+  - docs/models/getactivejobssystemresponsenodeclass.md
+  - docs/models/getactivejobswarranty.md
+  - docs/models/getactivitiesactivities.md
+  - docs/models/getactivitiesactivityresult.md
+  - docs/models/getactivitiesactivitytype.md
+  - docs/models/getactivitiespriority.md
+  - docs/models/getactivitiesrequest.md
+  - docs/models/getactivitiesresponsebody.md
+  - docs/models/getactivitiesseverity.md
+  - docs/models/getactivitiesstatuscode.md
+  - docs/models/getalertsapprovalstatus.md
+  - docs/models/getalertsbackupusage.md
+  - docs/models/getalertschassistype.md
+  - docs/models/getalertsdevice.md
+  - docs/models/getalertsfields.md
+  - docs/models/getalertslocation.md
+  - docs/models/getalertsmaintenance.md
+  - docs/models/getalertsnodeapprovalmode.md
+  - docs/models/getalertsnodeclass.md
+  - docs/models/getalertsorganization.md
+  - docs/models/getalertspolicy.md
+  - docs/models/getalertspsaticketid.md
+  - docs/models/getalertsreferences.md
+  - docs/models/getalertsrequest.md
+  - docs/models/getalertsresponsebody.md
+  - docs/models/getalertsrole.md
+  - docs/models/getalertsrolepolicy.md
+  - docs/models/getalertssourcetype.md
+  - docs/models/getalertsstatus.md
+  - docs/models/getalertssystemfields.md
+  - docs/models/getalertssystemnodeclass.md
+  - docs/models/getalertssystemresponsedefaultapplicationjsonfields.md
+  - docs/models/getalertssystemresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getalertssystemresponsedefaultfields.md
+  - docs/models/getalertssystemresponsedefaultnodeclass.md
+  - docs/models/getalertssystemresponsefields.md
+  - docs/models/getalertssystemresponsenodeclass.md
+  - docs/models/getalertswarranty.md
+  - docs/models/getallrelateditemsentity.md
+  - docs/models/getallrelateditemsentitytype.md
+  - docs/models/getallrelateditemsrelentity.md
+  - docs/models/getallrelateditemsrelentitytype.md
+  - docs/models/getallrelateditemsresponsebody.md
+  - docs/models/getallrelateditemstype.md
+  - docs/models/getallrelateditemsvalue.md
+  - docs/models/getallstatusesresponsebody.md
+  - docs/models/getalluserandcontactsrequest.md
+  - docs/models/getalluserandcontactsresponsebody.md
+  - docs/models/getalluserandcontactsusertype.md
+  - docs/models/getantivirusstatusreportcursor.md
+  - docs/models/getantivirusstatusreportrequest.md
+  - docs/models/getantivirusstatusreportresponsebody.md
+  - docs/models/getantivirusstatusreportresults.md
+  - docs/models/getantivirusthreatscursor.md
+  - docs/models/getantivirusthreatsrequest.md
+  - docs/models/getantivirusthreatsresponsebody.md
+  - docs/models/getantivirusthreatsresults.md
+  - docs/models/getautomationscriptsrequest.md
+  - docs/models/getautomationscriptsresponsebody.md
+  - docs/models/getautomationscriptsscriptvariables.md
+  - docs/models/getautomationscriptssource.md
+  - docs/models/getautomationscriptstype.md
+  - docs/models/getbackupjobscursor.md
+  - docs/models/getbackupjobsrequest.md
+  - docs/models/getbackupjobsresponsebody.md
+  - docs/models/getbackupjobsresults.md
+  - docs/models/getboardsresponsebody.md
+  - docs/models/getboardssortby.md
+  - docs/models/getchecklisttemplatesarchivedby.md
+  - docs/models/getchecklisttemplateschecklisttemplatesdescription.md
+  - docs/models/getchecklisttemplatesdescription.md
+  - docs/models/getchecklisttemplateslastupdatedby.md
+  - docs/models/getchecklisttemplatesrequest.md
+  - docs/models/getchecklisttemplatesresponsebody.md
+  - docs/models/getchecklisttemplatestasks.md
+  - docs/models/getclientchecklistarchivedby.md
+  - docs/models/getclientchecklistassignedto.md
+  - docs/models/getclientchecklistcompletedby.md
+  - docs/models/getclientchecklistdescription.md
+  - docs/models/getclientchecklistlastupdatedby.md
+  - docs/models/getclientchecklistorganizationchecklistsassignedto.md
+  - docs/models/getclientchecklistorganizationchecklistsdescription.md
+  - docs/models/getclientchecklistrequest.md
+  - docs/models/getclientchecklistresponsebody.md
+  - docs/models/getclientchecklistsarchivedby.md
+  - docs/models/getclientchecklistsassignedto.md
+  - docs/models/getclientchecklistscompletedby.md
+  - docs/models/getclientchecklistsdescription.md
+  - docs/models/getclientchecklistsignedurlsrequest.md
+  - docs/models/getclientchecklistslastupdatedby.md
+  - docs/models/getclientchecklistsorganizationchecklistsassignedto.md
+  - docs/models/getclientchecklistsorganizationchecklistsdescription.md
+  - docs/models/getclientchecklistsrequest.md
+  - docs/models/getclientchecklistsresponsebody.md
+  - docs/models/getclientcheckliststasks.md
+  - docs/models/getclientchecklisttasks.md
+  - docs/models/getclientdocumentsignedurlsrequest.md
+  - docs/models/getclientdocumentswithattributevaluesfields.md
+  - docs/models/getclientdocumentswithattributevaluesrequest.md
+  - docs/models/getclientdocumentswithattributevaluesresponsebody.md
+  - docs/models/getclientdocumentswithattributevaluesvalue.md
+  - docs/models/getclientknowledgebasearticlesattachments.md
+  - docs/models/getclientknowledgebasearticlescontent.md
+  - docs/models/getclientknowledgebasearticlesmetadata.md
+  - docs/models/getclientknowledgebasearticlesrequest.md
+  - docs/models/getclientknowledgebasearticlesresponsebody.md
+  - docs/models/getclientknowledgebasearticlesuploadstatus.md
+  - docs/models/getcomputersystemscursor.md
+  - docs/models/getcomputersystemsrequest.md
+  - docs/models/getcomputersystemsresponsebody.md
+  - docs/models/getcomputersystemsresults.md
+  - docs/models/getcontactsresponsebody.md
+  - docs/models/getcustomfieldsdetailedreportcursor.md
+  - docs/models/getcustomfieldsdetailedreportentitytype.md
+  - docs/models/getcustomfieldsdetailedreportfields.md
+  - docs/models/getcustomfieldsdetailedreportrequest.md
+  - docs/models/getcustomfieldsdetailedreportresponsebody.md
+  - docs/models/getcustomfieldsdetailedreportresults.md
+  - docs/models/getcustomfieldsdetailedreportsource.md
+  - docs/models/getcustomfieldsdetailedreportvalue.md
+  - docs/models/getcustomfieldspolicyconditioninheritance.md
+  - docs/models/getcustomfieldspolicyconditionmanagementoperator.md
+  - docs/models/getcustomfieldspolicyconditionmatchall.md
+  - docs/models/getcustomfieldspolicyconditionmatchany.md
+  - docs/models/getcustomfieldspolicyconditionnotificationaction.md
+  - docs/models/getcustomfieldspolicyconditionoperator.md
+  - docs/models/getcustomfieldspolicyconditionpriority.md
+  - docs/models/getcustomfieldspolicyconditionrequest.md
+  - docs/models/getcustomfieldspolicyconditionresponsebody.md
+  - docs/models/getcustomfieldspolicyconditionrunas.md
+  - docs/models/getcustomfieldspolicyconditionscripts.md
+  - docs/models/getcustomfieldspolicyconditionscriptvariables.md
+  - docs/models/getcustomfieldspolicyconditionseverity.md
+  - docs/models/getcustomfieldspolicyconditionsmanagementoperator.md
+  - docs/models/getcustomfieldspolicyconditionsmatchall.md
+  - docs/models/getcustomfieldspolicyconditionsmatchany.md
+  - docs/models/getcustomfieldspolicyconditionsnotificationaction.md
+  - docs/models/getcustomfieldspolicyconditionsoperator.md
+  - docs/models/getcustomfieldspolicyconditionspriority.md
+  - docs/models/getcustomfieldspolicyconditionsrequest.md
+  - docs/models/getcustomfieldspolicyconditionsrunas.md
+  - docs/models/getcustomfieldspolicyconditionsscripts.md
+  - docs/models/getcustomfieldspolicyconditionsscriptvariables.md
+  - docs/models/getcustomfieldspolicyconditionsseverity.md
+  - docs/models/getcustomfieldsreportcursor.md
+  - docs/models/getcustomfieldsreportfields.md
+  - docs/models/getcustomfieldsreportrequest.md
+  - docs/models/getcustomfieldsreportresponsebody.md
+  - docs/models/getcustomfieldsreportresults.md
+  - docs/models/getdeviceactivejobsapprovalstatus.md
+  - docs/models/getdeviceactivejobsbackupusage.md
+  - docs/models/getdeviceactivejobschassistype.md
+  - docs/models/getdeviceactivejobsdevicesfields.md
+  - docs/models/getdeviceactivejobsdevicesnodeclass.md
+  - docs/models/getdeviceactivejobsdevicesresponsedefaultapplicationjsonfields.md
+  - docs/models/getdeviceactivejobsdevicesresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getdeviceactivejobsdevicesresponsedefaultfields.md
+  - docs/models/getdeviceactivejobsdevicesresponsedefaultnodeclass.md
+  - docs/models/getdeviceactivejobsdevicesresponsefields.md
+  - docs/models/getdeviceactivejobsdevicesresponsenodeclass.md
+  - docs/models/getdeviceactivejobsfields.md
+  - docs/models/getdeviceactivejobslocation.md
+  - docs/models/getdeviceactivejobsmaintenance.md
+  - docs/models/getdeviceactivejobsnodeapprovalmode.md
+  - docs/models/getdeviceactivejobsnodeclass.md
+  - docs/models/getdeviceactivejobsorganization.md
+  - docs/models/getdeviceactivejobspolicy.md
+  - docs/models/getdeviceactivejobsreferences.md
+  - docs/models/getdeviceactivejobsrequest.md
+  - docs/models/getdeviceactivejobsresponsebody.md
+  - docs/models/getdeviceactivejobsrole.md
+  - docs/models/getdeviceactivejobsrolepolicy.md
+  - docs/models/getdeviceactivejobsstatus.md
+  - docs/models/getdeviceactivejobswarranty.md
+  - docs/models/getdeviceactivitiespriority.md
+  - docs/models/getdeviceactivitiesrequest.md
+  - docs/models/getdeviceactivitiesresponsebody.md
+  - docs/models/getdeviceactivitiesseverity.md
+  - docs/models/getdevicealertsapprovalstatus.md
+  - docs/models/getdevicealertsbackupusage.md
+  - docs/models/getdevicealertschassistype.md
+  - docs/models/getdevicealertsdevice.md
+  - docs/models/getdevicealertsdevicesfields.md
+  - docs/models/getdevicealertsdevicesnodeclass.md
+  - docs/models/getdevicealertsdevicesresponsedefaultapplicationjsonfields.md
+  - docs/models/getdevicealertsdevicesresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getdevicealertsdevicesresponsedefaultfields.md
+  - docs/models/getdevicealertsdevicesresponsedefaultnodeclass.md
+  - docs/models/getdevicealertsdevicesresponsefields.md
+  - docs/models/getdevicealertsdevicesresponsenodeclass.md
+  - docs/models/getdevicealertsfields.md
+  - docs/models/getdevicealertslocation.md
+  - docs/models/getdevicealertsmaintenance.md
+  - docs/models/getdevicealertsnodeapprovalmode.md
+  - docs/models/getdevicealertsnodeclass.md
+  - docs/models/getdevicealertsorganization.md
+  - docs/models/getdevicealertspolicy.md
+  - docs/models/getdevicealertspsaticketid.md
+  - docs/models/getdevicealertsreferences.md
+  - docs/models/getdevicealertsrequest.md
+  - docs/models/getdevicealertsresponsebody.md
+  - docs/models/getdevicealertsrole.md
+  - docs/models/getdevicealertsrolepolicy.md
+  - docs/models/getdevicealertssourcetype.md
+  - docs/models/getdevicealertsstatus.md
+  - docs/models/getdevicealertswarranty.md
+  - docs/models/getdevicechassistype.md
+  - docs/models/getdevicedevicesfields.md
+  - docs/models/getdevicedevicesnodeclass.md
+  - docs/models/getdevicedevicesresponse200applicationjsonfields.md
+  - docs/models/getdevicedevicesresponse200applicationjsonresponsebodyfields.md
+  - docs/models/getdevicedevicesresponse200fields.md
+  - docs/models/getdevicedevicesresponse200nodeclass.md
+  - docs/models/getdevicedevicesresponsefields.md
+  - docs/models/getdevicedevicesresponsenodeclass.md
+  - docs/models/getdevicediskdrivesrequest.md
+  - docs/models/getdevicediskdrivesresponsebody.md
+  - docs/models/getdevicefields.md
+  - docs/models/getdeviceglobalcustomfieldsadvancedsettings.md
+  - docs/models/getdeviceglobalcustomfieldscomplexityrules.md
+  - docs/models/getdeviceglobalcustomfieldscontent.md
+  - docs/models/getdeviceglobalcustomfieldsdatefilters.md
+  - docs/models/getdeviceglobalcustomfieldsentitytype.md
+  - docs/models/getdeviceglobalcustomfieldsipaddresstype.md
+  - docs/models/getdeviceglobalcustomfieldsnodeclass.md
+  - docs/models/getdeviceglobalcustomfieldsnumericrange.md
+  - docs/models/getdeviceglobalcustomfieldsrequest.md
+  - docs/models/getdeviceglobalcustomfieldsresponsebody.md
+  - docs/models/getdeviceglobalcustomfieldsscope.md
+  - docs/models/getdeviceglobalcustomfieldssystemtype.md
+  - docs/models/getdeviceglobalcustomfieldstype.md
+  - docs/models/getdeviceglobalcustomfieldsvalues.md
+  - docs/models/getdevicehealthreportcursor.md
+  - docs/models/getdevicehealthreportrequest.md
+  - docs/models/getdevicehealthreportresponsebody.md
+  - docs/models/getdevicehealthreportresults.md
+  - docs/models/getdeviceinstalledospatchesrequest.md
+  - docs/models/getdeviceinstalledospatchesresponsebody.md
+  - docs/models/getdeviceinstalledsoftwarepatchesrequest.md
+  - docs/models/getdeviceinstalledsoftwarepatchesresponsebody.md
+  - docs/models/getdevicelastloggedonuserrequest.md
+  - docs/models/getdevicelastloggedonuserresponsebody.md
+  - docs/models/getdevicelinkrequest.md
+  - docs/models/getdevicelinkresponsebody.md
+  - docs/models/getdevicelocation.md
+  - docs/models/getdevicenetworkinterfacesrequest.md
+  - docs/models/getdevicenetworkinterfacesresponsebody.md
+  - docs/models/getdevicenodeapprovalmode.md
+  - docs/models/getdevicenodeclass.md
+  - docs/models/getdeviceorganization.md
+  - docs/models/getdevicependingfailedrejectedospatchesrequest.md
+  - docs/models/getdevicependingfailedrejectedospatchesresponsebody.md
+  - docs/models/getdevicependingfailedrejectedsoftwarepatchesrequest.md
+  - docs/models/getdevicependingfailedrejectedsoftwarepatchesresponsebody.md
+  - docs/models/getdeviceprocessorsrequest.md
+  - docs/models/getdeviceprocessorsresponsebody.md
+  - docs/models/getdevicerequest.md
+  - docs/models/getdeviceresponsebody.md
+  - docs/models/getdevicesapprovalstatus.md
+  - docs/models/getdevicesbackupusage.md
+  - docs/models/getdeviceschassistype.md
+  - docs/models/getdevicesdetailedapprovalstatus.md
+  - docs/models/getdevicesdetailedbackupusage.md
+  - docs/models/getdevicesdetailedchassistype.md
+  - docs/models/getdevicesdetailedfields.md
+  - docs/models/getdevicesdetailedlocation.md
+  - docs/models/getdevicesdetailedmaintenance.md
+  - docs/models/getdevicesdetailednodeapprovalmode.md
+  - docs/models/getdevicesdetailednodeclass.md
+  - docs/models/getdevicesdetailednotes.md
+  - docs/models/getdevicesdetailedorganization.md
+  - docs/models/getdevicesdetailedpolicy.md
+  - docs/models/getdevicesdetailedreferences.md
+  - docs/models/getdevicesdetailedrequest.md
+  - docs/models/getdevicesdetailedresponsebody.md
+  - docs/models/getdevicesdetailedrole.md
+  - docs/models/getdevicesdetailedrolepolicy.md
+  - docs/models/getdevicesdetailedstatus.md
+  - docs/models/getdevicesdetailedsystemfields.md
+  - docs/models/getdevicesdetailedsystemnodeclass.md
+  - docs/models/getdevicesdetailedsystemresponsedefaultapplicationjsonfields.md
+  - docs/models/getdevicesdetailedsystemresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getdevicesdetailedsystemresponsedefaultfields.md
+  - docs/models/getdevicesdetailedsystemresponsedefaultnodeclass.md
+  - docs/models/getdevicesdetailedsystemresponsefields.md
+  - docs/models/getdevicesdetailedsystemresponsenodeclass.md
+  - docs/models/getdevicesdetailedwarranty.md
+  - docs/models/getdeviceservicesrequest.md
+  - docs/models/getdeviceservicesresponsebody.md
+  - docs/models/getdeviceservicesstarttype.md
+  - docs/models/getdeviceservicesstate.md
+  - docs/models/getdevicesfields.md
+  - docs/models/getdeviceslocation.md
+  - docs/models/getdevicesmaintenance.md
+  - docs/models/getdevicesnodeapprovalmode.md
+  - docs/models/getdevicesnodeclass.md
+  - docs/models/getdevicesoftwarerequest.md
+  - docs/models/getdevicesoftwareresponsebody.md
+  - docs/models/getdevicesorganization.md
+  - docs/models/getdevicespolicy.md
+  - docs/models/getdevicesreferences.md
+  - docs/models/getdevicesrequest.md
+  - docs/models/getdevicesresponsebody.md
+  - docs/models/getdevicesrole.md
+  - docs/models/getdevicesrolepolicy.md
+  - docs/models/getdevicesstatus.md
+  - docs/models/getdevicessystemfields.md
+  - docs/models/getdevicessystemnodeclass.md
+  - docs/models/getdevicessystemresponsedefaultapplicationjsonfields.md
+  - docs/models/getdevicessystemresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getdevicessystemresponsedefaultfields.md
+  - docs/models/getdevicessystemresponsedefaultnodeclass.md
+  - docs/models/getdevicessystemresponsefields.md
+  - docs/models/getdevicessystemresponsenodeclass.md
+  - docs/models/getdevicestatus.md
+  - docs/models/getdeviceswarranty.md
+  - docs/models/getdeviceusageapprovalstatus.md
+  - docs/models/getdeviceusagebackupusage.md
+  - docs/models/getdeviceusagechassistype.md
+  - docs/models/getdeviceusagecursor.md
+  - docs/models/getdeviceusagefields.md
+  - docs/models/getdeviceusagelocation.md
+  - docs/models/getdeviceusagemaintenance.md
+  - docs/models/getdeviceusagenodeapprovalmode.md
+  - docs/models/getdeviceusagenodeclass.md
+  - docs/models/getdeviceusageorganization.md
+  - docs/models/getdeviceusagepolicy.md
+  - docs/models/getdeviceusagequeriesfields.md
+  - docs/models/getdeviceusagequeriesnodeclass.md
+  - docs/models/getdeviceusagequeriesresponse200applicationjsonfields.md
+  - docs/models/getdeviceusagequeriesresponse200applicationjsonresponsebodyfields.md
+  - docs/models/getdeviceusagequeriesresponse200fields.md
+  - docs/models/getdeviceusagequeriesresponse200nodeclass.md
+  - docs/models/getdeviceusagequeriesresponsefields.md
+  - docs/models/getdeviceusagequeriesresponsenodeclass.md
+  - docs/models/getdeviceusagereferences.md
+  - docs/models/getdeviceusagerequest.md
+  - docs/models/getdeviceusageresponsebody.md
+  - docs/models/getdeviceusageresults.md
+  - docs/models/getdeviceusagerole.md
+  - docs/models/getdeviceusagerolepolicy.md
+  - docs/models/getdeviceusagestatus.md
+  - docs/models/getdeviceusagewarranty.md
+  - docs/models/getdevicevolumesrequest.md
+  - docs/models/getdevicevolumesresponsebody.md
+  - docs/models/getdevicewarranty.md
+  - docs/models/getdiskdrivescursor.md
+  - docs/models/getdiskdrivesrequest.md
+  - docs/models/getdiskdrivesresponsebody.md
+  - docs/models/getdiskdrivesresults.md
+  - docs/models/getdocumenttemplateadvancedsettings.md
+  - docs/models/getdocumenttemplatearchivedby.md
+  - docs/models/getdocumenttemplatecomplexityrules.md
+  - docs/models/getdocumenttemplatedatefilters.md
+  - docs/models/getdocumenttemplatefieldapipermission.md
+  - docs/models/getdocumenttemplatefieldcontent.md
+  - docs/models/getdocumenttemplatefields.md
+  - docs/models/getdocumenttemplatefieldscriptpermission.md
+  - docs/models/getdocumenttemplatefieldtechnicianpermission.md
+  - docs/models/getdocumenttemplatefieldtype.md
+  - docs/models/getdocumenttemplateipaddresstype.md
+  - docs/models/getdocumenttemplatenodeclass.md
+  - docs/models/getdocumenttemplatenumericrange.md
+  - docs/models/getdocumenttemplaterequest.md
+  - docs/models/getdocumenttemplateresponsebody.md
+  - docs/models/getdocumenttemplateswithattributesadvancedsettings.md
+  - docs/models/getdocumenttemplateswithattributesarchivedby.md
+  - docs/models/getdocumenttemplateswithattributescomplexityrules.md
+  - docs/models/getdocumenttemplateswithattributesdatefilters.md
+  - docs/models/getdocumenttemplateswithattributesfieldapipermission.md
+  - docs/models/getdocumenttemplateswithattributesfieldcontent.md
+  - docs/models/getdocumenttemplateswithattributesfields.md
+  - docs/models/getdocumenttemplateswithattributesfieldscriptpermission.md
+  - docs/models/getdocumenttemplateswithattributesfieldtechnicianpermission.md
+  - docs/models/getdocumenttemplateswithattributesfieldtype.md
+  - docs/models/getdocumenttemplateswithattributesipaddresstype.md
+  - docs/models/getdocumenttemplateswithattributesnodeclass.md
+  - docs/models/getdocumenttemplateswithattributesnumericrange.md
+  - docs/models/getdocumenttemplateswithattributesrequest.md
+  - docs/models/getdocumenttemplateswithattributesresponsebody.md
+  - docs/models/getdocumenttemplateswithattributestype.md
+  - docs/models/getdocumenttemplateswithattributesuielementtype.md
+  - docs/models/getdocumenttemplateswithattributesvalues.md
+  - docs/models/getdocumenttemplatetype.md
+  - docs/models/getdocumenttemplateuielementtype.md
+  - docs/models/getdocumenttemplatevalues.md
+  - docs/models/getenablednotificationchannelsresponsebody.md
+  - docs/models/getenablednotificationchannelstype.md
+  - docs/models/getendusersfields.md
+  - docs/models/getendusersrequest.md
+  - docs/models/getendusersresponsebody.md
+  - docs/models/getendusersusertype.md
+  - docs/models/getglobalknowledgebasearticlesattachments.md
+  - docs/models/getglobalknowledgebasearticlescontent.md
+  - docs/models/getglobalknowledgebasearticlesmetadata.md
+  - docs/models/getglobalknowledgebasearticlesrequest.md
+  - docs/models/getglobalknowledgebasearticlesresponsebody.md
+  - docs/models/getglobalknowledgebasearticlesuploadstatus.md
+  - docs/models/getgroupdeviceidsrequest.md
+  - docs/models/getgroupsfields.md
+  - docs/models/getgroupsresponsebody.md
+  - docs/models/getinstalledospatchescursor.md
+  - docs/models/getinstalledospatchesrequest.md
+  - docs/models/getinstalledospatchesresponsebody.md
+  - docs/models/getinstalledospatchesresults.md
+  - docs/models/getinstalledsoftwarepatchescursor.md
+  - docs/models/getinstalledsoftwarepatchesrequest.md
+  - docs/models/getinstalledsoftwarepatchesresponsebody.md
+  - docs/models/getinstalledsoftwarepatchesresults.md
+  - docs/models/getinstallercontent.md
+  - docs/models/getinstallerforlocationrequest.md
+  - docs/models/getinstallerforlocationresponsebody.md
+  - docs/models/getinstallerrequestbody.md
+  - docs/models/getinstallerresponsebody.md
+  - docs/models/getintegritycheckjobsrequest.md
+  - docs/models/getintegritycheckjobsresponsebody.md
+  - docs/models/getknowledgebasearticlesignedurlsrequest.md
+  - docs/models/getknowledgebasefoldercontentcontent.md
+  - docs/models/getknowledgebasefoldercontentrequest.md
+  - docs/models/getknowledgebasefoldercontentresponsebody.md
+  - docs/models/getknowledgebasefolderpathcontentcontent.md
+  - docs/models/getknowledgebasefolderpathcontentfileuploadstatus.md
+  - docs/models/getknowledgebasefolderpathcontentrequest.md
+  - docs/models/getknowledgebasefolderpathcontentresponsebody.md
+  - docs/models/getlastloggedonusersreportcursor.md
+  - docs/models/getlastloggedonusersreportrequest.md
+  - docs/models/getlastloggedonusersreportresponsebody.md
+  - docs/models/getlastloggedonusersreportresults.md
+  - docs/models/getlocationsfields.md
+  - docs/models/getlocationsrequest.md
+  - docs/models/getlocationsresponsebody.md
+  - docs/models/getlocationusagerequest.md
+  - docs/models/getlocationusageresponsebody.md
+  - docs/models/getnetworkinterfacescursor.md
+  - docs/models/getnetworkinterfacesrequest.md
+  - docs/models/getnetworkinterfacesresponsebody.md
+  - docs/models/getnetworkinterfacesresults.md
+  - docs/models/getnodeattributesignedurlsrequest.md
+  - docs/models/getnodecustomfields1request.md
+  - docs/models/getnodecustomfields1responsebody.md
+  - docs/models/getnodecustomfields2request.md
+  - docs/models/getnodecustomfields2responsebody.md
+  - docs/models/getnodecustomfieldsrequest.md
+  - docs/models/getnodecustomfieldsresponsebody.md
+  - docs/models/getnoderolesfields.md
+  - docs/models/getnoderolesnodeclass.md
+  - docs/models/getnoderolesresponsebody.md
+  - docs/models/getnotificationchannelsresponsebody.md
+  - docs/models/getnotificationchannelstype.md
+  - docs/models/getoperatingsystemscursor.md
+  - docs/models/getoperatingsystemsrequest.md
+  - docs/models/getoperatingsystemsresponsebody.md
+  - docs/models/getoperatingsystemsresults.md
+  - docs/models/getorganizationbackup.md
+  - docs/models/getorganizationdevicesapprovalstatus.md
+  - docs/models/getorganizationdevicesbackupusage.md
+  - docs/models/getorganizationdeviceschassistype.md
+  - docs/models/getorganizationdevicesfields.md
+  - docs/models/getorganizationdeviceslocation.md
+  - docs/models/getorganizationdevicesmaintenance.md
+  - docs/models/getorganizationdevicesnodeapprovalmode.md
+  - docs/models/getorganizationdevicesnodeclass.md
+  - docs/models/getorganizationdevicesorganization.md
+  - docs/models/getorganizationdevicesorganizationfields.md
+  - docs/models/getorganizationdevicesorganizationnodeclass.md
+  - docs/models/getorganizationdevicesorganizationresponsedefaultapplicationjsonfields.md
+  - docs/models/getorganizationdevicesorganizationresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/getorganizationdevicesorganizationresponsedefaultfields.md
+  - docs/models/getorganizationdevicesorganizationresponsedefaultnodeclass.md
+  - docs/models/getorganizationdevicesorganizationresponsefields.md
+  - docs/models/getorganizationdevicesorganizationresponsenodeclass.md
+  - docs/models/getorganizationdevicespolicy.md
+  - docs/models/getorganizationdevicesreferences.md
+  - docs/models/getorganizationdevicesrequest.md
+  - docs/models/getorganizationdevicesresponsebody.md
+  - docs/models/getorganizationdevicesrole.md
+  - docs/models/getorganizationdevicesrolepolicy.md
+  - docs/models/getorganizationdevicesstatus.md
+  - docs/models/getorganizationdeviceswarranty.md
+  - docs/models/getorganizationdocumentsfields.md
+  - docs/models/getorganizationdocumentsrequest.md
+  - docs/models/getorganizationdocumentsresponsebody.md
+  - docs/models/getorganizationdocumentsvalue.md
+  - docs/models/getorganizationfields.md
+  - docs/models/getorganizationlocations.md
+  - docs/models/getorganizationlocationsfields.md
+  - docs/models/getorganizationlocationsrequest.md
+  - docs/models/getorganizationlocationsresponsebody.md
+  - docs/models/getorganizationlocationusagerequest.md
+  - docs/models/getorganizationlocationusageresponsebody.md
+  - docs/models/getorganizationnodeapprovalmode.md
+  - docs/models/getorganizationoptions.md
+  - docs/models/getorganizationorganizationfields.md
+  - docs/models/getorganizationorganizationoptions.md
+  - docs/models/getorganizationorganizationresponsedefaultapplicationjsonoptions.md
+  - docs/models/getorganizationorganizationresponsedefaultoptions.md
+  - docs/models/getorganizationorganizationresponseoptions.md
+  - docs/models/getorganizationpolicies.md
+  - docs/models/getorganizationpsa.md
+  - docs/models/getorganizationrequest.md
+  - docs/models/getorganizationresponsebody.md
+  - docs/models/getorganizationsdetailedbackup.md
+  - docs/models/getorganizationsdetailedfields.md
+  - docs/models/getorganizationsdetailedlocations.md
+  - docs/models/getorganizationsdetailednodeapprovalmode.md
+  - docs/models/getorganizationsdetailedoptions.md
+  - docs/models/getorganizationsdetailedpolicies.md
+  - docs/models/getorganizationsdetailedpsa.md
+  - docs/models/getorganizationsdetailedrequest.md
+  - docs/models/getorganizationsdetailedresponsebody.md
+  - docs/models/getorganizationsdetailedsettings.md
+  - docs/models/getorganizationsdetailedsplashtop.md
+  - docs/models/getorganizationsdetailedsystemfields.md
+  - docs/models/getorganizationsdetailedsystemoptions.md
+  - docs/models/getorganizationsdetailedsystemresponsedefaultapplicationjsonoptions.md
+  - docs/models/getorganizationsdetailedsystemresponsedefaultoptions.md
+  - docs/models/getorganizationsdetailedsystemresponseoptions.md
+  - docs/models/getorganizationsdetailedteamviewer.md
+  - docs/models/getorganizationsdetailedtrayicon.md
+  - docs/models/getorganizationsettings.md
+  - docs/models/getorganizationsfields.md
+  - docs/models/getorganizationsnodeapprovalmode.md
+  - docs/models/getorganizationsplashtop.md
+  - docs/models/getorganizationsrequest.md
+  - docs/models/getorganizationsresponsebody.md
+  - docs/models/getorganizationteamviewer.md
+  - docs/models/getorganizationtrayicon.md
+  - docs/models/getpendingfailedrejectedospatchescursor.md
+  - docs/models/getpendingfailedrejectedospatchesrequest.md
+  - docs/models/getpendingfailedrejectedospatchesresponsebody.md
+  - docs/models/getpendingfailedrejectedospatchesresults.md
+  - docs/models/getpendingfailedrejectedsoftwarepatchescursor.md
+  - docs/models/getpendingfailedrejectedsoftwarepatchesrequest.md
+  - docs/models/getpendingfailedrejectedsoftwarepatchesresponsebody.md
+  - docs/models/getpendingfailedrejectedsoftwarepatchesresults.md
+  - docs/models/getpoliciesfields.md
+  - docs/models/getpoliciesnodeclass.md
+  - docs/models/getpoliciesresponsebody.md
+  - docs/models/getpolicyoverrides1cursor.md
+  - docs/models/getpolicyoverrides1request.md
+  - docs/models/getpolicyoverrides1responsebody.md
+  - docs/models/getpolicyoverrides1results.md
+  - docs/models/getpolicyoverridesrequest.md
+  - docs/models/getpolicyoverridesresponsebody.md
+  - docs/models/getprocessorscursor.md
+  - docs/models/getprocessorsrequest.md
+  - docs/models/getprocessorsresponsebody.md
+  - docs/models/getprocessorsresults.md
+  - docs/models/getraidcontrollerreportcursor.md
+  - docs/models/getraidcontrollerreportrequest.md
+  - docs/models/getraidcontrollerreportresponsebody.md
+  - docs/models/getraidcontrollerreportresults.md
+  - docs/models/getraiddrivereportcursor.md
+  - docs/models/getraiddrivereportrequest.md
+  - docs/models/getraiddrivereportresponsebody.md
+  - docs/models/getraiddrivereportresults.md
+  - docs/models/getrelateditemattachmentssignedurlspathparamentitytype.md
+  - docs/models/getrelateditemattachmentssignedurlsrequest.md
+  - docs/models/getrelateditemsforhostentityentity.md
+  - docs/models/getrelateditemsforhostentityentitytype.md
+  - docs/models/getrelateditemsforhostentitypathparamentitytype.md
+  - docs/models/getrelateditemsforhostentityrelentity.md
+  - docs/models/getrelateditemsforhostentityrelentitytype.md
+  - docs/models/getrelateditemsforhostentityrequest.md
+  - docs/models/getrelateditemsforhostentityresponsebody.md
+  - docs/models/getrelateditemsforhostentitytype.md
+  - docs/models/getrelateditemsforhostentityvalue.md
+  - docs/models/getrelateditemswithentityentity.md
+  - docs/models/getrelateditemswithentityentitytype.md
+  - docs/models/getrelateditemswithentityrelentity.md
+  - docs/models/getrelateditemswithentityrelentitytype.md
+  - docs/models/getrelateditemswithentityrequest.md
+  - docs/models/getrelateditemswithentityresponsebody.md
+  - docs/models/getrelateditemswithentitytype.md
+  - docs/models/getrelateditemswithentitytypeentity.md
+  - docs/models/getrelateditemswithentitytypeentitytype.md
+  - docs/models/getrelateditemswithentitytyperelentity.md
+  - docs/models/getrelateditemswithentitytyperelentitytype.md
+  - docs/models/getrelateditemswithentitytyperequest.md
+  - docs/models/getrelateditemswithentitytyperesponsebody.md
+  - docs/models/getrelateditemswithentitytypetype.md
+  - docs/models/getrelateditemswithentitytypevalue.md
+  - docs/models/getrelateditemswithentityvalue.md
+  - docs/models/getrelateditemswithhostentitytypeentity.md
+  - docs/models/getrelateditemswithhostentitytypeentitytype.md
+  - docs/models/getrelateditemswithhostentitytypepathparamentitytype.md
+  - docs/models/getrelateditemswithhostentitytyperelentity.md
+  - docs/models/getrelateditemswithhostentitytyperelentitytype.md
+  - docs/models/getrelateditemswithhostentitytyperequest.md
+  - docs/models/getrelateditemswithhostentitytyperesponsebody.md
+  - docs/models/getrelateditemswithhostentitytypetype.md
+  - docs/models/getrelateditemswithhostentitytypevalue.md
+  - docs/models/getscheduledtasksresponsebody.md
+  - docs/models/getscopedcustomfieldsdetailedreportcursor.md
+  - docs/models/getscopedcustomfieldsdetailedreportfields.md
+  - docs/models/getscopedcustomfieldsdetailedreportrequest.md
+  - docs/models/getscopedcustomfieldsdetailedreportresponsebody.md
+  - docs/models/getscopedcustomfieldsdetailedreportresults.md
+  - docs/models/getscopedcustomfieldsdetailedreportscope.md
+  - docs/models/getscopedcustomfieldsdetailedreportsource.md
+  - docs/models/getscopedcustomfieldsdetailedreportupdatedby.md
+  - docs/models/getscopedcustomfieldsdetailedreportuser.md
+  - docs/models/getscopedcustomfieldsdetailedreportvalue.md
+  - docs/models/getscopedcustomfieldsreportcursor.md
+  - docs/models/getscopedcustomfieldsreportfields.md
+  - docs/models/getscopedcustomfieldsreportrequest.md
+  - docs/models/getscopedcustomfieldsreportresponsebody.md
+  - docs/models/getscopedcustomfieldsreportresults.md
+  - docs/models/getscopedcustomfieldsreportscope.md
+  - docs/models/getsoftwarecursor.md
+  - docs/models/getsoftwareproductsresponsebody.md
+  - docs/models/getsoftwarerequest.md
+  - docs/models/getsoftwareresponsebody.md
+  - docs/models/getsoftwareresults.md
+  - docs/models/getticketattributesadvancedsettings.md
+  - docs/models/getticketattributescomplexityrules.md
+  - docs/models/getticketattributescontent.md
+  - docs/models/getticketattributesdatefilters.md
+  - docs/models/getticketattributesendusercustomization.md
+  - docs/models/getticketattributesipaddresstype.md
+  - docs/models/getticketattributesnodeclass.md
+  - docs/models/getticketattributesnumericrange.md
+  - docs/models/getticketattributesresponsebody.md
+  - docs/models/getticketattributestype.md
+  - docs/models/getticketattributesvalues.md
+  - docs/models/getticketbyidattributevalues.md
+  - docs/models/getticketbyidcclist.md
+  - docs/models/getticketbyidpriority.md
+  - docs/models/getticketbyidrequest.md
+  - docs/models/getticketbyidresponsebody.md
+  - docs/models/getticketbyidseverity.md
+  - docs/models/getticketbyidsource.md
+  - docs/models/getticketbyidstatus.md
+  - docs/models/getticketbyidtype.md
+  - docs/models/getticketbyidvalue.md
+  - docs/models/getticketformbyidadvancedsettings.md
+  - docs/models/getticketformbyidcomplexityrules.md
+  - docs/models/getticketformbyidcontent.md
+  - docs/models/getticketformbyiddatefilters.md
+  - docs/models/getticketformbyidendusercustomization.md
+  - docs/models/getticketformbyidfields.md
+  - docs/models/getticketformbyidipaddresstype.md
+  - docs/models/getticketformbyidmode.md
+  - docs/models/getticketformbyidnodeclass.md
+  - docs/models/getticketformbyidnumericrange.md
+  - docs/models/getticketformbyidrequest.md
+  - docs/models/getticketformbyidresponsebody.md
+  - docs/models/getticketformbyidticketingcontent.md
+  - docs/models/getticketformbyidtype.md
+  - docs/models/getticketformbyidvalues.md
+  - docs/models/getticketformsadvancedsettings.md
+  - docs/models/getticketformscomplexityrules.md
+  - docs/models/getticketformscontent.md
+  - docs/models/getticketformsdatefilters.md
+  - docs/models/getticketformsendusercustomization.md
+  - docs/models/getticketformsfields.md
+  - docs/models/getticketformsipaddresstype.md
+  - docs/models/getticketformsmode.md
+  - docs/models/getticketformsnodeclass.md
+  - docs/models/getticketformsnumericrange.md
+  - docs/models/getticketformsresponsebody.md
+  - docs/models/getticketformsticketingcontent.md
+  - docs/models/getticketformstimersettings.md
+  - docs/models/getticketformstype.md
+  - docs/models/getticketformsvalues.md
+  - docs/models/getticketlogentriesbyticketidrequest.md
+  - docs/models/getticketlogentriesbyticketidresponsebody.md
+  - docs/models/getticketlogentriesbyticketidtype.md
+  - docs/models/getticketsbyboardattributes.md
+  - docs/models/getticketsbyboarddirection.md
+  - docs/models/getticketsbyboardfilters.md
+  - docs/models/getticketsbyboardrequest.md
+  - docs/models/getticketsbyboardrequestbody.md
+  - docs/models/getticketsbyboardresponsebody.md
+  - docs/models/getticketsbyboardsortby.md
+  - docs/models/getticketsbyboardtype.md
+  - docs/models/getusersfields.md
+  - docs/models/getusersinvitationstatus.md
+  - docs/models/getusersrequest.md
+  - docs/models/getusersresponsebody.md
+  - docs/models/getusersusertype.md
+  - docs/models/getvolumesbitlockerstatus.md
+  - docs/models/getvolumesconversionstatus.md
+  - docs/models/getvolumescursor.md
+  - docs/models/getvolumesencryptionmethod.md
+  - docs/models/getvolumeslockstatus.md
+  - docs/models/getvolumesprotectionstatus.md
+  - docs/models/getvolumesrequest.md
+  - docs/models/getvolumesresponsebody.md
+  - docs/models/getvolumesresults.md
+  - docs/models/getwindowseventpolicyconditioncondition.md
+  - docs/models/getwindowseventpolicyconditioninclude.md
+  - docs/models/getwindowseventpolicyconditioninheritance.md
+  - docs/models/getwindowseventpolicyconditionnotificationaction.md
+  - docs/models/getwindowseventpolicyconditionoccurrence.md
+  - docs/models/getwindowseventpolicyconditionpriority.md
+  - docs/models/getwindowseventpolicyconditionrequest.md
+  - docs/models/getwindowseventpolicyconditionresponsebody.md
+  - docs/models/getwindowseventpolicyconditionrunas.md
+  - docs/models/getwindowseventpolicyconditionscondition.md
+  - docs/models/getwindowseventpolicyconditionscripts.md
+  - docs/models/getwindowseventpolicyconditionscriptvariables.md
+  - docs/models/getwindowseventpolicyconditionseverity.md
+  - docs/models/getwindowseventpolicyconditionsinclude.md
+  - docs/models/getwindowseventpolicyconditionsinheritance.md
+  - docs/models/getwindowseventpolicyconditionsnotificationaction.md
+  - docs/models/getwindowseventpolicyconditionsoccurrence.md
+  - docs/models/getwindowseventpolicyconditionspriority.md
+  - docs/models/getwindowseventpolicyconditionsrequest.md
+  - docs/models/getwindowseventpolicyconditionsresponsebody.md
+  - docs/models/getwindowseventpolicyconditionsrunas.md
+  - docs/models/getwindowseventpolicyconditionsscripts.md
+  - docs/models/getwindowseventpolicyconditionsscriptvariables.md
+  - docs/models/getwindowseventpolicyconditionsseverity.md
+  - docs/models/getwindowseventpolicyconditionstext.md
+  - docs/models/getwindowseventpolicyconditiontext.md
+  - docs/models/getwindowsservicesreportcursor.md
+  - docs/models/getwindowsservicesreportrequest.md
+  - docs/models/getwindowsservicesreportresponsebody.md
+  - docs/models/getwindowsservicesreportresults.md
+  - docs/models/getwindowsservicesreportstarttype.md
+  - docs/models/getwindowsservicesreportstate.md
+  - docs/models/groupby.md
+  - docs/models/headers.md
+  - docs/models/healthstatus.md
+  - docs/models/include.md
+  - docs/models/inheritance.md
+  - docs/models/installertype.md
+  - docs/models/invitationstatus.md
+  - docs/models/jobresult.md
+  - docs/models/jobstatus.md
+  - docs/models/jobtype.md
+  - docs/models/lastupdatedby.md
+  - docs/models/locations.md
+  - docs/models/lockstatus.md
+  - docs/models/maintenance.md
+  - docs/models/matchall.md
+  - docs/models/matchany.md
+  - docs/models/mediatype.md
+  - docs/models/messagebodyworkers.md
+  - docs/models/metadata.md
+  - docs/models/mode.md
+  - docs/models/multipart.md
+  - docs/models/multipartparameterizedheaders.md
+  - docs/models/nodeapprovalmode.md
+  - docs/models/nodeapprovaloperationrequest.md
+  - docs/models/nodeapprovaloperationrequestbody.md
+  - docs/models/notes.md
+  - docs/models/notificationaction.md
+  - docs/models/occurrence.md
+  - docs/models/operator.md
+  - docs/models/options.md
+  - docs/models/parameterizedheaders.md
+  - docs/models/parent.md
+  - docs/models/pathparamentitytype.md
+  - docs/models/pathparaminstallertype.md
+  - docs/models/pathparammode.md
+  - docs/models/pathparamrelentitytype.md
+  - docs/models/policies.md
+  - docs/models/policy.md
+  - docs/models/priority.md
+  - docs/models/productsinstallationstatuses.md
+  - docs/models/protectionstatus.md
+  - docs/models/providers.md
+  - docs/models/psa.md
+  - docs/models/psaticketid.md
+  - docs/models/queryparammode.md
+  - docs/models/queryparamstate.md
+  - docs/models/queryparamtype.md
+  - docs/models/queryparamusertype.md
+  - docs/models/rebootdevicesrequest.md
+  - docs/models/rebootdevicesrequestbody.md
+  - docs/models/references.md
+  - docs/models/relatedentitytype.md
+  - docs/models/relentity.md
+  - docs/models/removedeviceownerrequest.md
+  - docs/models/requestbody.md
+  - docs/models/requestscriptingoptionscredentials.md
+  - docs/models/requestscriptingoptionsmanagementtype.md
+  - docs/models/requestscriptingoptionsrequest.md
+  - docs/models/requestscriptingoptionsresponsebody.md
+  - docs/models/requestscriptingoptionsscripts.md
+  - docs/models/requestscriptingoptionstype.md
+  - docs/models/resetalertrequest.md
+  - docs/models/resetalertsetactivitydatarequest.md
+  - docs/models/resetalertsetactivitydatarequestbody.md
+  - docs/models/resetpolicyoverridesrequest.md
+  - docs/models/responsebody.md
+  - docs/models/restorechecklisttemplatearchivedby.md
+  - docs/models/restorechecklisttemplatechecklisttemplatesdescription.md
+  - docs/models/restorechecklisttemplatedescription.md
+  - docs/models/restorechecklisttemplatelastupdatedby.md
+  - docs/models/restorechecklisttemplateresponsebody.md
+  - docs/models/restorechecklisttemplatetasks.md
+  - docs/models/restoreclientdocumentfields.md
+  - docs/models/restoreclientdocumentrequest.md
+  - docs/models/restoreclientdocumentresponsebody.md
+  - docs/models/restoreclientdocumentvalue.md
+  - docs/models/restoredocumenttemplateadvancedsettings.md
+  - docs/models/restoredocumenttemplatearchivedby.md
+  - docs/models/restoredocumenttemplatecomplexityrules.md
+  - docs/models/restoredocumenttemplatedatefilters.md
+  - docs/models/restoredocumenttemplatefieldapipermission.md
+  - docs/models/restoredocumenttemplatefieldcontent.md
+  - docs/models/restoredocumenttemplatefields.md
+  - docs/models/restoredocumenttemplatefieldscriptpermission.md
+  - docs/models/restoredocumenttemplatefieldtechnicianpermission.md
+  - docs/models/restoredocumenttemplatefieldtype.md
+  - docs/models/restoredocumenttemplateipaddresstype.md
+  - docs/models/restoredocumenttemplatenodeclass.md
+  - docs/models/restoredocumenttemplatenumericrange.md
+  - docs/models/restoredocumenttemplaterequest.md
+  - docs/models/restoredocumenttemplateresponsebody.md
+  - docs/models/restoredocumenttemplatetype.md
+  - docs/models/restoredocumenttemplateuielementtype.md
+  - docs/models/restoredocumenttemplatevalues.md
+  - docs/models/restoremultipageclientdocumentsfields.md
+  - docs/models/restoremultipageclientdocumentsresponsebody.md
+  - docs/models/restoremultipageclientdocumentsvalue.md
+  - docs/models/restoreorganizationchecklistsarchivedby.md
+  - docs/models/restoreorganizationchecklistsassignedto.md
+  - docs/models/restoreorganizationchecklistscompletedby.md
+  - docs/models/restoreorganizationchecklistsdescription.md
+  - docs/models/restoreorganizationchecklistslastupdatedby.md
+  - docs/models/restoreorganizationchecklistsorganizationchecklistsassignedto.md
+  - docs/models/restoreorganizationchecklistsorganizationchecklistsdescription.md
+  - docs/models/restoreorganizationchecklistsresponsebody.md
+  - docs/models/restoreorganizationcheckliststasks.md
+  - docs/models/result.md
+  - docs/models/results.md
+  - docs/models/role.md
+  - docs/models/rolepolicy.md
+  - docs/models/runas.md
+  - docs/models/runscriptondevicerequest.md
+  - docs/models/runscriptondevicerequestbody.md
+  - docs/models/runscriptondevicetype.md
+  - docs/models/scope.md
+  - docs/models/scopes.md
+  - docs/models/scriptpermission.md
+  - docs/models/scripts.md
+  - docs/models/scriptvariables.md
+  - docs/models/searchapprovalstatus.md
+  - docs/models/searchbackupusage.md
+  - docs/models/searchchassistype.md
+  - docs/models/searchdevices.md
+  - docs/models/searchfields.md
+  - docs/models/searchlocation.md
+  - docs/models/searchmaintenance.md
+  - docs/models/searchnodeapprovalmode.md
+  - docs/models/searchnodeclass.md
+  - docs/models/searchorganization.md
+  - docs/models/searchpolicy.md
+  - docs/models/searchreferences.md
+  - docs/models/searchrequest.md
+  - docs/models/searchresponsebody.md
+  - docs/models/searchrole.md
+  - docs/models/searchrolepolicy.md
+  - docs/models/searchstatus.md
+  - docs/models/searchsystemfields.md
+  - docs/models/searchsystemnodeclass.md
+  - docs/models/searchsystemresponsedefaultapplicationjsonfields.md
+  - docs/models/searchsystemresponsedefaultapplicationjsonresponsebodyfields.md
+  - docs/models/searchsystemresponsedefaultfields.md
+  - docs/models/searchsystemresponsedefaultnodeclass.md
+  - docs/models/searchsystemresponsefields.md
+  - docs/models/searchsystemresponsenodeclass.md
+  - docs/models/searchwarranty.md
+  - docs/models/security.md
+  - docs/models/setdeviceownerrequest.md
+  - docs/models/settings.md
+  - docs/models/setwindowsserviceconfigurationrequest.md
+  - docs/models/setwindowsserviceconfigurationrequestbody.md
+  - docs/models/severity.md
+  - docs/models/sortby.md
+  - docs/models/source.md
+  - docs/models/sourcetype.md
+  - docs/models/splashtop.md
+  - docs/models/starttype.md
+  - docs/models/state.md
+  - docs/models/status.md
+  - docs/models/statuscode.md
+  - docs/models/submitintegritycheckjobrequestbody.md
+  - docs/models/submitintegritycheckjobresponsebody.md
+  - docs/models/submitospatchapplyrequest.md
+  - docs/models/submitospatchscanrequest.md
+  - docs/models/submitsoftwarepatchapplyrequest.md
+  - docs/models/submitsoftwarepatchscanrequest.md
+  - docs/models/tasks.md
+  - docs/models/teamviewer.md
+  - docs/models/technicianpermission.md
+  - docs/models/technicianstaggedmetadata.md
+  - docs/models/text.md
+  - docs/models/timersettings.md
+  - docs/models/trayicon.md
+  - docs/models/updateattributes.md
+  - docs/models/updateattributevalues.md
+  - docs/models/updatecc.md
+  - docs/models/updatecclist.md
+  - docs/models/updatechecklisttemplatesarchivedby.md
+  - docs/models/updatechecklisttemplateschecklisttemplatesdescription.md
+  - docs/models/updatechecklisttemplateschecklisttemplatesresponsedescription.md
+  - docs/models/updatechecklisttemplatesdescription.md
+  - docs/models/updatechecklisttemplateslastupdatedby.md
+  - docs/models/updatechecklisttemplatesresponsebody.md
+  - docs/models/updatechecklisttemplatestasks.md
+  - docs/models/updatedby.md
+  - docs/models/updatedevicemaintenancerequest.md
+  - docs/models/updatedevicemaintenancerequestbody.md
+  - docs/models/updatedevicerequest.md
+  - docs/models/updatedevicerequestbody.md
+  - docs/models/updatedfields.md
+  - docs/models/updatedocumenttemplatearchivedby.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesadvancedsettings.md
+  - docs/models/updatedocumenttemplatedocumenttemplatescomplexityrules.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesdatefilters.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesfieldapipermission.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesfieldcontent.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesfields.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesfieldscriptpermission.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesfieldtechnicianpermission.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesfieldtype.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesipaddresstype.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesnodeclass.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesnumericrange.md
+  - docs/models/updatedocumenttemplatedocumenttemplatestype.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesuielementtype.md
+  - docs/models/updatedocumenttemplatedocumenttemplatesvalues.md
+  - docs/models/updatedocumenttemplaterequest.md
+  - docs/models/updatedocumenttemplateresponsebody.md
+  - docs/models/updateknowledgebasearticlesattachments.md
+  - docs/models/updateknowledgebasearticlesknowledgebasearticlescontent.md
+  - docs/models/updateknowledgebasearticlesmetadata.md
+  - docs/models/updateknowledgebasearticlesresponsebody.md
+  - docs/models/updateknowledgebasearticlesuploadstatus.md
+  - docs/models/updatelocationfields.md
+  - docs/models/updatelocationmanagementfields.md
+  - docs/models/updatelocationrequest.md
+  - docs/models/updatelocationrequestbody.md
+  - docs/models/updatelocationresponsebody.md
+  - docs/models/updatenodeattributevalues1request.md
+  - docs/models/updatenodeattributevalues1requestbody.md
+  - docs/models/updatenodeattributevalues2request.md
+  - docs/models/updatenodeattributevalues2requestbody.md
+  - docs/models/updatenodeattributevaluesrequest.md
+  - docs/models/updatenodeattributevaluesrequestbody.md
+  - docs/models/updatenoderolepolicyassignmentfororganizationrequest.md
+  - docs/models/updatenoderolepolicyassignmentfororganizationrequestbody.md
+  - docs/models/updateorganizationchecklistsarchivedby.md
+  - docs/models/updateorganizationchecklistsassignedto.md
+  - docs/models/updateorganizationchecklistscompletedby.md
+  - docs/models/updateorganizationchecklistsdescription.md
+  - docs/models/updateorganizationchecklistslastupdatedby.md
+  - docs/models/updateorganizationchecklistsorganizationchecklistsassignedto.md
+  - docs/models/updateorganizationchecklistsorganizationchecklistsdescription.md
+  - docs/models/updateorganizationchecklistsorganizationchecklistsresponse200description.md
+  - docs/models/updateorganizationchecklistsorganizationchecklistsresponsedescription.md
+  - docs/models/updateorganizationchecklistsorganizationcheckliststasks.md
+  - docs/models/updateorganizationchecklistsrequestbody.md
+  - docs/models/updateorganizationchecklistsresponsebody.md
+  - docs/models/updateorganizationcheckliststasks.md
+  - docs/models/updateorganizationdocumentfields.md
+  - docs/models/updateorganizationdocumentrequest.md
+  - docs/models/updateorganizationdocumentrequestbody.md
+  - docs/models/updateorganizationdocumentresponsebody.md
+  - docs/models/updateorganizationdocumentsfields.md
+  - docs/models/updateorganizationdocumentsrequestbody.md
+  - docs/models/updateorganizationdocumentsresponsebody.md
+  - docs/models/updateorganizationdocumentsvalue.md
+  - docs/models/updateorganizationdocumentupdatedfields.md
+  - docs/models/updateorganizationdocumentvalue.md
+  - docs/models/updateorganizationfields.md
+  - docs/models/updateorganizationnodeapprovalmode.md
+  - docs/models/updateorganizationrequest.md
+  - docs/models/updateorganizationrequestbody.md
+  - docs/models/updatepriority.md
+  - docs/models/updaterequest.md
+  - docs/models/updaterequestbody.md
+  - docs/models/updateresponsebody.md
+  - docs/models/updateseverity.md
+  - docs/models/updatesource.md
+  - docs/models/updatestatus.md
+  - docs/models/updateticketingpriority.md
+  - docs/models/updateticketingseverity.md
+  - docs/models/updateticketingtype.md
+  - docs/models/updatetype.md
+  - docs/models/updatevalue.md
+  - docs/models/uploadknowledgebasearticlesattachments.md
+  - docs/models/uploadknowledgebasearticlescontent.md
+  - docs/models/uploadknowledgebasearticlescontentdisposition.md
+  - docs/models/uploadknowledgebasearticlesentity.md
+  - docs/models/uploadknowledgebasearticlesfiles.md
+  - docs/models/uploadknowledgebasearticlesformdatacontentdisposition.md
+  - docs/models/uploadknowledgebasearticlesknowledgebasearticlescontentdisposition.md
+  - docs/models/uploadknowledgebasearticlesknowledgebasearticlesentity.md
+  - docs/models/uploadknowledgebasearticlesknowledgebasearticlesmediatype.md
+  - docs/models/uploadknowledgebasearticlesknowledgebasearticlesmessagebodyworkers.md
+  - docs/models/uploadknowledgebasearticlesknowledgebasearticlesparameterizedheaders.md
+  - docs/models/uploadknowledgebasearticlesknowledgebasearticlesproviders.md
+  - docs/models/uploadknowledgebasearticlesmediatype.md
+  - docs/models/uploadknowledgebasearticlesmessagebodyworkers.md
+  - docs/models/uploadknowledgebasearticlesmetadata.md
+  - docs/models/uploadknowledgebasearticlesparameterizedheaders.md
+  - docs/models/uploadknowledgebasearticlesparent.md
+  - docs/models/uploadknowledgebasearticlesproviders.md
+  - docs/models/uploadknowledgebasearticlesrequestbody.md
+  - docs/models/uploadknowledgebasearticlesresponsebody.md
+  - docs/models/uploadknowledgebasearticlesuploadstatus.md
+  - docs/models/uploadstatus.md
+  - docs/models/uploadtempattachmentscontentdisposition.md
+  - docs/models/uploadtempattachmentsentity.md
+  - docs/models/uploadtempattachmentsknowledgebasearticlescontentdisposition.md
+  - docs/models/uploadtempattachmentsknowledgebasearticlesentity.md
+  - docs/models/uploadtempattachmentsknowledgebasearticlesmediatype.md
+  - docs/models/uploadtempattachmentsknowledgebasearticlesmessagebodyworkers.md
+  - docs/models/uploadtempattachmentsknowledgebasearticlesparameterizedheaders.md
+  - docs/models/uploadtempattachmentsknowledgebasearticlesproviders.md
+  - docs/models/uploadtempattachmentsmediatype.md
+  - docs/models/uploadtempattachmentsmessagebodyworkers.md
+  - docs/models/uploadtempattachmentsparameterizedheaders.md
+  - docs/models/uploadtempattachmentsproviders.md
+  - docs/models/uploadtempattachmentsrequest.md
+  - docs/models/uploadtempattachmentsrequestbody.md
+  - docs/models/uploadtempattachmentsresponsebody.md
+  - docs/models/user.md
+  - docs/models/usertype.md
+  - docs/models/utils/retryconfig.md
+  - docs/models/value.md
+  - docs/models/warranty.md
+  - docs/sdks/backup/README.md
+  - docs/sdks/checklisttemplates/README.md
+  - docs/sdks/customfields/README.md
+  - docs/sdks/devices/README.md
+  - docs/sdks/documenttemplates/README.md
+  - docs/sdks/groups/README.md
+  - docs/sdks/knowledgebasearticles/README.md
+  - docs/sdks/location/README.md
+  - docs/sdks/management/README.md
+  - docs/sdks/ninjapy/README.md
+  - docs/sdks/organization/README.md
+  - docs/sdks/organizationchecklists/README.md
+  - docs/sdks/organizationdocuments/README.md
+  - docs/sdks/queries/README.md
+  - docs/sdks/relateditems/README.md
+  - docs/sdks/system/README.md
+  - docs/sdks/ticketing/README.md
+  - docs/sdks/webhooks/README.md
+  - poetry.toml
+  - py.typed
+  - pylintrc
+  - pyproject.toml
+  - scripts/prepare-readme.py
+  - scripts/publish.sh
+  - src/ninjapy/__init__.py
+  - src/ninjapy/_hooks/__init__.py
+  - src/ninjapy/_hooks/sdkhooks.py
+  - src/ninjapy/_hooks/types.py
+  - src/ninjapy/_version.py
+  - src/ninjapy/backup.py
+  - src/ninjapy/basesdk.py
+  - src/ninjapy/checklist_templates.py
+  - src/ninjapy/custom_fields.py
+  - src/ninjapy/devices.py
+  - src/ninjapy/document_templates.py
+  - src/ninjapy/groups.py
+  - src/ninjapy/httpclient.py
+  - src/ninjapy/knowledge_base_articles.py
+  - src/ninjapy/location.py
+  - src/ninjapy/management.py
+  - src/ninjapy/models/__init__.py
+  - src/ninjapy/models/apierror.py
+  - src/ninjapy/models/archivechecklisttemplateop.py
+  - src/ninjapy/models/archiveclientdocumentop.py
+  - src/ninjapy/models/archivedocumenttemplateop.py
+  - src/ninjapy/models/archivemultipageclientdocumentsop.py
+  - src/ninjapy/models/archiveorganizationchecklistsop.py
+  - src/ninjapy/models/bodypart.py
+  - src/ninjapy/models/canceldevicemaintenanceop.py
+  - src/ninjapy/models/configurewebhookop.py
+  - src/ninjapy/models/controlwindowsserviceop.py
+  - src/ninjapy/models/createchecklisttemplatesop.py
+  - src/ninjapy/models/createcommentop.py
+  - src/ninjapy/models/createcustomfieldspolicyconditionop.py
+  - src/ninjapy/models/createdocumenttemplateop.py
+  - src/ninjapy/models/createknowledgebasearticlesop.py
+  - src/ninjapy/models/createlocationfororganizationop.py
+  - src/ninjapy/models/createop.py
+  - src/ninjapy/models/createorganizationchecklistsfromtemplatesop.py
+  - src/ninjapy/models/createorganizationchecklistsop.py
+  - src/ninjapy/models/createorganizationdocumentop.py
+  - src/ninjapy/models/createorganizationdocumentsop.py
+  - src/ninjapy/models/createorganizationop.py
+  - src/ninjapy/models/createpolicyop.py
+  - src/ninjapy/models/createrelateditemforentity_1op.py
+  - src/ninjapy/models/createrelateditemforentityop.py
+  - src/ninjapy/models/createrelateditemop.py
+  - src/ninjapy/models/createsecurerelateditemforentityop.py
+  - src/ninjapy/models/createwindowseventpolicyconditionop.py
+  - src/ninjapy/models/deletechecklisttemplateop.py
+  - src/ninjapy/models/deleteclientchecklistop.py
+  - src/ninjapy/models/deleteclientdocumentop.py
+  - src/ninjapy/models/deletedocumenttemplateop.py
+  - src/ninjapy/models/deletepolicyconditionop.py
+  - src/ninjapy/models/deleterelateditemop.py
+  - src/ninjapy/models/deleterelateditemsop.py
+  - src/ninjapy/models/downloadknowledgebasearticleop.py
+  - src/ninjapy/models/downloadrelateditemattachmentop.py
+  - src/ninjapy/models/getactivejobsop.py
+  - src/ninjapy/models/getactivitiesop.py
+  - src/ninjapy/models/getalertsop.py
+  - src/ninjapy/models/getallrelateditemsop.py
+  - src/ninjapy/models/getallstatusesop.py
+  - src/ninjapy/models/getalluserandcontactsop.py
+  - src/ninjapy/models/getantivirusstatusreportop.py
+  - src/ninjapy/models/getantivirusthreatsop.py
+  - src/ninjapy/models/getautomationscriptsop.py
+  - src/ninjapy/models/getbackupjobsop.py
+  - src/ninjapy/models/getboardsop.py
+  - src/ninjapy/models/getchecklisttemplatesop.py
+  - src/ninjapy/models/getclientchecklistop.py
+  - src/ninjapy/models/getclientchecklistsignedurlsop.py
+  - src/ninjapy/models/getclientchecklistsop.py
+  - src/ninjapy/models/getclientdocumentsignedurlsop.py
+  - src/ninjapy/models/getclientdocumentswithattributevaluesop.py
+  - src/ninjapy/models/getclientknowledgebasearticlesop.py
+  - src/ninjapy/models/getcomputersystemsop.py
+  - src/ninjapy/models/getcontactsop.py
+  - src/ninjapy/models/getcustomfieldsdetailedreportop.py
+  - src/ninjapy/models/getcustomfieldspolicyconditionop.py
+  - src/ninjapy/models/getcustomfieldspolicyconditionsop.py
+  - src/ninjapy/models/getcustomfieldsreportop.py
+  - src/ninjapy/models/getdeviceactivejobsop.py
+  - src/ninjapy/models/getdeviceactivitiesop.py
+  - src/ninjapy/models/getdevicealertsop.py
+  - src/ninjapy/models/getdevicediskdrivesop.py
+  - src/ninjapy/models/getdeviceglobalcustomfieldsop.py
+  - src/ninjapy/models/getdevicehealthreportop.py
+  - src/ninjapy/models/getdeviceinstalledospatchesop.py
+  - src/ninjapy/models/getdeviceinstalledsoftwarepatchesop.py
+  - src/ninjapy/models/getdevicelastloggedonuserop.py
+  - src/ninjapy/models/getdevicelinkop.py
+  - src/ninjapy/models/getdevicenetworkinterfacesop.py
+  - src/ninjapy/models/getdeviceop.py
+  - src/ninjapy/models/getdevicependingfailedrejectedospatchesop.py
+  - src/ninjapy/models/getdevicependingfailedrejectedsoftwarepatchesop.py
+  - src/ninjapy/models/getdeviceprocessorsop.py
+  - src/ninjapy/models/getdevicesdetailedop.py
+  - src/ninjapy/models/getdeviceservicesop.py
+  - src/ninjapy/models/getdevicesoftwareop.py
+  - src/ninjapy/models/getdevicesop.py
+  - src/ninjapy/models/getdeviceusageop.py
+  - src/ninjapy/models/getdevicevolumesop.py
+  - src/ninjapy/models/getdiskdrivesop.py
+  - src/ninjapy/models/getdocumenttemplateop.py
+  - src/ninjapy/models/getdocumenttemplateswithattributesop.py
+  - src/ninjapy/models/getenablednotificationchannelsop.py
+  - src/ninjapy/models/getendusersop.py
+  - src/ninjapy/models/getglobalknowledgebasearticlesop.py
+  - src/ninjapy/models/getgroupdeviceidsop.py
+  - src/ninjapy/models/getgroupsop.py
+  - src/ninjapy/models/getinstalledospatchesop.py
+  - src/ninjapy/models/getinstalledsoftwarepatchesop.py
+  - src/ninjapy/models/getinstallerforlocationop.py
+  - src/ninjapy/models/getinstallerop.py
+  - src/ninjapy/models/getintegritycheckjobsop.py
+  - src/ninjapy/models/getknowledgebasearticlesignedurlsop.py
+  - src/ninjapy/models/getknowledgebasefoldercontentop.py
+  - src/ninjapy/models/getknowledgebasefolderpathcontentop.py
+  - src/ninjapy/models/getlastloggedonusersreportop.py
+  - src/ninjapy/models/getlocationsop.py
+  - src/ninjapy/models/getlocationusageop.py
+  - src/ninjapy/models/getnetworkinterfacesop.py
+  - src/ninjapy/models/getnodeattributesignedurlsop.py
+  - src/ninjapy/models/getnodecustomfields_1op.py
+  - src/ninjapy/models/getnodecustomfields_2op.py
+  - src/ninjapy/models/getnodecustomfieldsop.py
+  - src/ninjapy/models/getnoderolesop.py
+  - src/ninjapy/models/getnotificationchannelsop.py
+  - src/ninjapy/models/getoperatingsystemsop.py
+  - src/ninjapy/models/getorganizationdevicesop.py
+  - src/ninjapy/models/getorganizationdocumentsop.py
+  - src/ninjapy/models/getorganizationlocationsop.py
+  - src/ninjapy/models/getorganizationlocationusageop.py
+  - src/ninjapy/models/getorganizationop.py
+  - src/ninjapy/models/getorganizationsdetailedop.py
+  - src/ninjapy/models/getorganizationsop.py
+  - src/ninjapy/models/getpendingfailedrejectedospatchesop.py
+  - src/ninjapy/models/getpendingfailedrejectedsoftwarepatchesop.py
+  - src/ninjapy/models/getpoliciesop.py
+  - src/ninjapy/models/getpolicyoverrides_1op.py
+  - src/ninjapy/models/getpolicyoverridesop.py
+  - src/ninjapy/models/getprocessorsop.py
+  - src/ninjapy/models/getraidcontrollerreportop.py
+  - src/ninjapy/models/getraiddrivereportop.py
+  - src/ninjapy/models/getrelateditemattachmentssignedurlsop.py
+  - src/ninjapy/models/getrelateditemsforhostentityop.py
+  - src/ninjapy/models/getrelateditemswithentityop.py
+  - src/ninjapy/models/getrelateditemswithentitytypeop.py
+  - src/ninjapy/models/getrelateditemswithhostentitytypeop.py
+  - src/ninjapy/models/getscheduledtasksop.py
+  - src/ninjapy/models/getscopedcustomfieldsdetailedreportop.py
+  - src/ninjapy/models/getscopedcustomfieldsreportop.py
+  - src/ninjapy/models/getsoftwareop.py
+  - src/ninjapy/models/getsoftwareproductsop.py
+  - src/ninjapy/models/getticketattributesop.py
+  - src/ninjapy/models/getticketbyidop.py
+  - src/ninjapy/models/getticketformbyidop.py
+  - src/ninjapy/models/getticketformsop.py
+  - src/ninjapy/models/getticketlogentriesbyticketidop.py
+  - src/ninjapy/models/getticketsbyboardop.py
+  - src/ninjapy/models/getusersop.py
+  - src/ninjapy/models/getvolumesop.py
+  - src/ninjapy/models/getwindowseventpolicyconditionop.py
+  - src/ninjapy/models/getwindowseventpolicyconditionsop.py
+  - src/ninjapy/models/getwindowsservicesreportop.py
+  - src/ninjapy/models/multipart.py
+  - src/ninjapy/models/nodeapprovaloperationop.py
+  - src/ninjapy/models/rebootdevicesop.py
+  - src/ninjapy/models/removedeviceownerop.py
+  - src/ninjapy/models/requestscriptingoptionsop.py
+  - src/ninjapy/models/resetalertop.py
+  - src/ninjapy/models/resetalertsetactivitydataop.py
+  - src/ninjapy/models/resetpolicyoverridesop.py
+  - src/ninjapy/models/restorechecklisttemplateop.py
+  - src/ninjapy/models/restoreclientdocumentop.py
+  - src/ninjapy/models/restoredocumenttemplateop.py
+  - src/ninjapy/models/restoremultipageclientdocumentsop.py
+  - src/ninjapy/models/restoreorganizationchecklistsop.py
+  - src/ninjapy/models/runscriptondeviceop.py
+  - src/ninjapy/models/searchop.py
+  - src/ninjapy/models/security.py
+  - src/ninjapy/models/setdeviceownerop.py
+  - src/ninjapy/models/setwindowsserviceconfigurationop.py
+  - src/ninjapy/models/submitintegritycheckjobop.py
+  - src/ninjapy/models/submitospatchapplyop.py
+  - src/ninjapy/models/submitospatchscanop.py
+  - src/ninjapy/models/submitsoftwarepatchapplyop.py
+  - src/ninjapy/models/submitsoftwarepatchscanop.py
+  - src/ninjapy/models/updatechecklisttemplatesop.py
+  - src/ninjapy/models/updatedevicemaintenanceop.py
+  - src/ninjapy/models/updatedeviceop.py
+  - src/ninjapy/models/updatedocumenttemplateop.py
+  - src/ninjapy/models/updateknowledgebasearticlesop.py
+  - src/ninjapy/models/updatelocationop.py
+  - src/ninjapy/models/updatenodeattributevalues_1op.py
+  - src/ninjapy/models/updatenodeattributevalues_2op.py
+  - src/ninjapy/models/updatenodeattributevaluesop.py
+  - src/ninjapy/models/updatenoderolepolicyassignmentfororganizationop.py
+  - src/ninjapy/models/updateop.py
+  - src/ninjapy/models/updateorganizationchecklistsop.py
+  - src/ninjapy/models/updateorganizationdocumentop.py
+  - src/ninjapy/models/updateorganizationdocumentsop.py
+  - src/ninjapy/models/updateorganizationop.py
+  - src/ninjapy/models/uploadknowledgebasearticlesop.py
+  - src/ninjapy/models/uploadtempattachmentsop.py
+  - src/ninjapy/organization.py
+  - src/ninjapy/organization_checklists.py
+  - src/ninjapy/organization_documents.py
+  - src/ninjapy/py.typed
+  - src/ninjapy/queries.py
+  - src/ninjapy/related_items.py
+  - src/ninjapy/sdk.py
+  - src/ninjapy/sdkconfiguration.py
+  - src/ninjapy/system.py
+  - src/ninjapy/ticketing.py
+  - src/ninjapy/types/__init__.py
+  - src/ninjapy/types/basemodel.py
+  - src/ninjapy/utils/__init__.py
+  - src/ninjapy/utils/annotations.py
+  - src/ninjapy/utils/enums.py
+  - src/ninjapy/utils/eventstreaming.py
+  - src/ninjapy/utils/forms.py
+  - src/ninjapy/utils/headers.py
+  - src/ninjapy/utils/logger.py
+  - src/ninjapy/utils/metadata.py
+  - src/ninjapy/utils/queryparams.py
+  - src/ninjapy/utils/requestbodies.py
+  - src/ninjapy/utils/retries.py
+  - src/ninjapy/utils/security.py
+  - src/ninjapy/utils/serializers.py
+  - src/ninjapy/utils/url.py
+  - src/ninjapy/utils/values.py
+  - src/ninjapy/webhooks.py
+examples:
+  getCustomFieldsPolicyConditions:
+    speakeasy-default-get-custom-fields-policy-conditions:
+      parameters:
+        path:
+          policy_id: 373422
+      responses:
+        default:
+          application/json: [{}]
+  createCustomFieldsPolicyCondition:
+    speakeasy-default-create-custom-fields-policy-condition:
+      parameters:
+        path:
+          policy_id: 76374
+      responses:
+        default:
+          application/json: {}
+  getWindowsEventPolicyConditions:
+    speakeasy-default-get-windows-event-policy-conditions:
+      parameters:
+        path:
+          policy_id: 282848
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  createWindowsEventPolicyCondition:
+    speakeasy-default-create-windows-event-policy-condition:
+      parameters:
+        path:
+          policy_id: 67109
+      responses:
+        default:
+          application/json: {}
+  deletePolicyCondition:
+    speakeasy-default-delete-policy-condition:
+      parameters:
+        path:
+          policy_id: 679235
+          condition_id: "04b357cc-e156-459c-a845-cd9071c70a1e"
+  getCustomFieldsPolicyCondition:
+    speakeasy-default-get-custom-fields-policy-condition:
+      parameters:
+        path:
+          policy_id: 29379
+          condition_id: "5ea0d6b7-e023-4d08-8861-cf15246ed92f"
+      responses:
+        default:
+          application/json: {}
+  getWindowsEventPolicyCondition:
+    speakeasy-default-get-windows-event-policy-condition:
+      parameters:
+        path:
+          policy_id: 800373
+          condition_id: "0de7c1eb-7755-40a5-aa42-f928a984fa15"
+      responses:
+        default:
+          application/json: {}
+  createOrganization:
+    speakeasy-default-create-organization:
+      responses:
+        default:
+          application/json: {}
+  nodeApprovalOperation:
+    speakeasy-default-node-approval-operation:
+      parameters:
+        path:
+          mode: "APPROVE"
+  resetAlert:
+    speakeasy-default-reset-alert:
+      parameters:
+        path:
+          uid: "1ec6692a-aa0f-4b93-8f6a-d518540b5012"
+  resetAlertSetActivityData:
+    speakeasy-default-reset-alert-set-activity-data:
+      parameters:
+        path:
+          uid: "7276ccad-eb23-4ac3-8c6e-80024f1e4ecb"
+  updateDeviceMaintenance:
+    speakeasy-default-update-device-maintenance:
+      parameters:
+        path:
+          id: 231198
+  cancelDeviceMaintenance:
+    speakeasy-default-cancel-device-maintenance:
+      parameters:
+        path:
+          id: 520239
+  controlWindowsService:
+    speakeasy-default-control-windows-service:
+      parameters:
+        path:
+          id: 53056
+          serviceId: "<id>"
+  updateDevice:
+    speakeasy-default-update-device:
+      parameters:
+        path:
+          id: 525669
+  getDeviceLink:
+    speakeasy-default-get-device-link:
+      parameters:
+        path:
+          id: 34272
+        query: {}
+      responses:
+        default:
+          application/json: {}
+  resetPolicyOverrides:
+    speakeasy-default-reset-policy-overrides:
+      parameters:
+        path:
+          id: 790327
+  rebootDevices:
+    speakeasy-default-reboot-devices:
+      parameters:
+        path:
+          id: 452601
+          mode: "NORMAL"
+  removeDeviceOwner:
+    speakeasy-default-remove-device-owner:
+      parameters:
+        path:
+          id: 586714
+  requestScriptingOptions:
+    speakeasy-default-request-scripting-options:
+      parameters:
+        path:
+          id: 963994
+        query: {}
+      responses:
+        default:
+          application/json: {}
+  runScriptOnDevice:
+    speakeasy-default-run-script-on-device:
+      parameters:
+        path:
+          id: 392541
+  setDeviceOwner:
+    speakeasy-default-set-device-owner:
+      parameters:
+        path:
+          id: 22171
+          ownerUid: "09c191c5-319d-4f8d-8e8b-e9f1bd696443"
+  setWindowsServiceConfiguration:
+    speakeasy-default-set-windows-service-configuration:
+      parameters:
+        path:
+          id: 613762
+          serviceId: "<id>"
+  submitOSPatchApply:
+    speakeasy-default-submit-OS-patch-apply:
+      parameters:
+        path:
+          id: 918967
+  submitOSPatchScan:
+    speakeasy-default-submit-OS-patch-scan:
+      parameters:
+        path:
+          id: 349148
+  submitSoftwarePatchApply:
+    speakeasy-default-submit-software-patch-apply:
+      parameters:
+        path:
+          id: 989479
+  submitSoftwarePatchScan:
+    speakeasy-default-submit-software-patch-scan:
+      parameters:
+        path:
+          id: 784427
+  createLocationForOrganization:
+    speakeasy-default-create-location-for-organization:
+      parameters:
+        path:
+          id: 641376
+      responses:
+        default:
+          application/json: {}
+  getInstaller:
+    example with nodeRole param auto:
+      requestBody:
+        application/json: {"organizationId": 1, "locationId": 1, "installerType": "WINDOWS_MSI", "content": {"nodeRoleId": "auto"}}
+    example with nodeRole param integer:
+      requestBody:
+        application/json: {"organizationId": 1, "locationId": 1, "installerType": "WINDOWS_MSI", "content": {"nodeRoleId": "201"}}
+  getInstallerForLocation:
+    speakeasy-default-get-installer-for-location:
+      parameters:
+        path:
+          id: 645124
+          location_id: 827642
+          installer_type: "MAC_DMG"
+      responses:
+        default:
+          application/json: {}
+  updateOrganization:
+    speakeasy-default-update-organization:
+      parameters:
+        path:
+          id: 138796
+  updateLocation:
+    speakeasy-default-update-location:
+      parameters:
+        path:
+          id: 907554
+          locationId: 652608
+      responses:
+        default:
+          application/json: {}
+  updateNodeRolePolicyAssignmentForOrganization:
+    speakeasy-default-update-node-role-policy-assignment-for-organization:
+      parameters:
+        path:
+          id: 503142
+      responses:
+        default:
+          '*/*': "0xD5ea193F3F"
+  createPolicy:
+    speakeasy-default-create-policy:
+      responses:
+        default:
+          application/json: {}
+  configureWebhook: {}
+  disableWebhook: {}
+  getOrganizations:
+    speakeasy-default-get-organizations:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getPolicies:
+    speakeasy-default-get-policies:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getActiveJobs:
+    speakeasy-default-get-active-jobs:
+      responses:
+        default:
+          application/json: [{}, {}]
+  getActivities:
+    speakeasy-default-get-activities:
+      parameters:
+        query:
+          class: "ALL"
+          pageSize: 200
+      responses:
+        default:
+          application/json: {}
+  getAlerts:
+    speakeasy-default-get-alerts:
+      responses:
+        default:
+          application/json: [{}]
+  getAutomationScripts:
+    speakeasy-default-get-automation-scripts:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDeviceGlobalCustomFields:
+    speakeasy-default-get-device-global-custom-fields:
+      responses:
+        default:
+          application/json: [{}, {}]
+  getDevices:
+    speakeasy-default-get-devices:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDevicesDetailed:
+    speakeasy-default-get-devices-detailed:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getEnabledNotificationChannels:
+    speakeasy-default-get-enabled-notification-channels:
+      responses:
+        default:
+          application/json: [{}]
+  getGroups:
+    speakeasy-default-get-groups:
+      responses:
+        default:
+          application/json: [{}]
+  getLocations:
+    speakeasy-default-get-locations:
+      responses:
+        default:
+          application/json: [{}, {}]
+  getNodeRoles:
+    speakeasy-default-get-node-roles:
+      responses:
+        default:
+          application/json: [{}]
+  getNotificationChannels:
+    speakeasy-default-get-notification-channels:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getOrganizationsDetailed:
+    speakeasy-default-get-organizations-detailed:
+      responses:
+        default:
+          application/json: [{}, {}]
+  getScheduledTasks:
+    speakeasy-default-get-scheduled-tasks:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getSoftwareProducts:
+    speakeasy-default-get-software-products:
+      responses:
+        default:
+          application/json: [{}]
+  getUsers:
+    speakeasy-default-get-users:
+      parameters:
+        query:
+          includeRoles: false
+      responses:
+        default:
+          application/json: [{}, {}]
+  search:
+    speakeasy-default-search:
+      responses:
+        default:
+          application/json: {}
+  uploadTempAttachments:
+    speakeasy-default-upload-temp-attachments:
+      responses:
+        "200":
+          application/json: [{}]
+  archiveKnowledgeBaseArticles: {}
+  archiveKnowledgeBaseFolders: {}
+  createKnowledgeBaseArticles:
+    speakeasy-default-create-knowledge-base-articles:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  updateKnowledgeBaseArticles:
+    speakeasy-default-update-knowledge-base-articles:
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  deleteKnowledgeBaseArticles: {}
+  deleteKnowledgeBaseFolders: {}
+  downloadKnowledgeBaseArticle:
+    speakeasy-default-download-knowledge-base-article:
+      parameters:
+        path:
+          articleId: 710722
+  getClientKnowledgeBaseArticles:
+    speakeasy-default-get-client-knowledge-base-articles:
+      responses:
+        "200":
+          application/json: [{}]
+  getGlobalKnowledgeBaseArticles:
+    speakeasy-default-get-global-knowledge-base-articles:
+      responses:
+        "200":
+          application/json: [{}]
+  getKnowledgeBaseArticleSignedUrls:
+    speakeasy-default-get-knowledge-base-article-signed-urls:
+      parameters:
+        path:
+          articleId: 884251
+      responses:
+        "200":
+          application/json: "<value>"
+  getKnowledgeBaseFolderContent:
+    speakeasy-default-get-knowledge-base-folder-content:
+      parameters:
+        path:
+          folderId: 279827
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+  getKnowledgeBaseFolderPathContent:
+    speakeasy-default-get-knowledge-base-folder-path-content:
+      responses:
+        "200":
+          application/json: {}
+  restoreKnowledgeBaseArticles: {}
+  restoreKnowledgeBaseFolders: {}
+  uploadKnowledgeBaseArticles:
+    speakeasy-default-upload-knowledge-base-articles:
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  downloadRelatedItemAttachment:
+    speakeasy-default-download-related-item-attachment:
+      parameters:
+        path:
+          relatedItemId: 973216
+  getRelatedItemAttachmentsSignedUrls:
+    speakeasy-default-get-related-item-attachments-signed-urls:
+      parameters:
+        path:
+          entityType: "KB_DOCUMENT"
+          entityId: 514349
+      responses:
+        "200":
+          application/json: "<value>"
+  archiveChecklistTemplate:
+    speakeasy-default-archive-checklist-template:
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  getChecklistTemplates:
+    speakeasy-default-get-checklist-templates:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  updateChecklistTemplates:
+    speakeasy-default-update-checklist-templates:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  createChecklistTemplates:
+    speakeasy-default-create-checklist-templates:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  deleteChecklistTemplate:
+    speakeasy-default-delete-checklist-template:
+      parameters:
+        path:
+          checklistTemplateId: 149952
+  deleteChecklistTemplates: {}
+  restoreChecklistTemplate:
+    speakeasy-default-restore-checklist-template:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  archiveOrganizationChecklists:
+    speakeasy-default-archive-organization-checklists:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  getClientChecklists:
+    speakeasy-default-get-client-checklists:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  updateOrganizationChecklists:
+    speakeasy-default-update-organization-checklists:
+      responses:
+        "200":
+          application/json: [{}]
+  createOrganizationChecklists:
+    speakeasy-default-create-organization-checklists:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  createOrganizationChecklistsFromTemplates:
+    speakeasy-default-create-organization-checklists-from-templates:
+      parameters:
+        path:
+          organizationId: 274594
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  getClientChecklist:
+    speakeasy-default-get-client-checklist:
+      parameters:
+        path:
+          checklistId: 245343
+      responses:
+        "200":
+          application/json: {}
+  deleteClientChecklist:
+    speakeasy-default-delete-client-checklist:
+      parameters:
+        path:
+          checklistId: 859666
+  deleteClientChecklists: {}
+  getClientChecklistSignedUrls:
+    speakeasy-default-get-client-checklist-signed-urls:
+      parameters:
+        path:
+          checklistId: 230496
+      responses:
+        "200":
+          application/json: "<value>"
+  promoteClientChecklists: {}
+  promoteClientChecklists_1: {}
+  restoreOrganizationChecklists:
+    speakeasy-default-restore-organization-checklists:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  archiveClientDocument:
+    speakeasy-default-archive-client-document:
+      parameters:
+        path:
+          clientDocumentId: 752902
+      responses:
+        "200":
+          '*/*': "0xc08AD81B54"
+  archiveMultiPageClientDocuments:
+    speakeasy-default-archive-multi-page-client-documents:
+      responses:
+        "200":
+          '*/*': "0xF1cecFf4b0"
+  createOrganizationDocument:
+    speakeasy-default-create-organization-document:
+      parameters:
+        path:
+          organizationId: 258814
+          documentTemplateId: 949525
+      responses:
+        "200":
+          application/json: {}
+  getClientDocumentsWithAttributeValues:
+    speakeasy-default-get-client-documents-with-attribute-values:
+      responses:
+        "200":
+          application/json: [{}]
+  createOrganizationDocuments:
+    speakeasy-default-create-organization-documents:
+      responses:
+        "200":
+          application/json: [{}, {}]
+  updateOrganizationDocuments:
+    speakeasy-default-update-organization-documents:
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  deleteClientDocument:
+    speakeasy-default-delete-client-document:
+      parameters:
+        path:
+          clientDocumentId: 134113
+  getClientDocumentSignedUrls:
+    speakeasy-default-get-client-document-signed-urls:
+      parameters:
+        path:
+          clientDocumentId: 614605
+      responses:
+        "200":
+          application/json: "<value>"
+  getOrganizationDocuments:
+    speakeasy-default-get-organization-documents:
+      parameters:
+        path:
+          organizationId: 34758
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  restoreClientDocument:
+    speakeasy-default-restore-client-document:
+      parameters:
+        path:
+          clientDocumentId: 686619
+      responses:
+        "200":
+          '*/*': "0xCe3b4A875C"
+  restoreMultiPageClientDocuments:
+    speakeasy-default-restore-multi-page-client-documents:
+      responses:
+        "200":
+          '*/*': "0x1eABd91CFb"
+  updateOrganizationDocument:
+    speakeasy-default-update-organization-document:
+      parameters:
+        path:
+          organizationId: 556376
+          clientDocumentId: 614049
+      responses:
+        "200":
+          application/json: {}
+  archiveDocumentTemplate:
+    speakeasy-default-archive-document-template:
+      parameters:
+        path:
+          documentTemplateId: 990995
+  getDocumentTemplatesWithAttributes:
+    speakeasy-default-get-document-templates-with-attributes:
+      parameters:
+        query:
+          includeTechnicianRoles: false
+      responses:
+        "200":
+          application/json: [{}]
+  createDocumentTemplate:
+    speakeasy-default-create-document-template:
+      responses:
+        "200":
+          application/json: {}
+  getDocumentTemplate:
+    speakeasy-default-get-document-template:
+      parameters:
+        path:
+          documentTemplateId: 609326
+        query:
+          includeTechnicianRoles: false
+      responses:
+        "200":
+          application/json: {}
+  updateDocumentTemplate:
+    speakeasy-default-update-document-template:
+      parameters:
+        path:
+          documentTemplateId: 151978
+      responses:
+        "200":
+          application/json: {}
+  deleteDocumentTemplate:
+    speakeasy-default-delete-document-template:
+      parameters:
+        path:
+          documentTemplateId: 95621
+  restoreDocumentTemplate:
+    speakeasy-default-restore-document-template:
+      parameters:
+        path:
+          documentTemplateId: 758428
+      responses:
+        "200":
+          '*/*': "0xbe67BFe34A"
+  getNodeAttributeSignedUrls:
+    speakeasy-default-get-node-attribute-signed-urls:
+      parameters:
+        path:
+          entityType: "NODE"
+          entityId: 346939
+      responses:
+        "200":
+          application/json: "<value>"
+  createRelatedItem:
+    speakeasy-default-create-related-item:
+      parameters:
+        path:
+          entityType: "LOCATION"
+          entityId: 296653
+      responses:
+        "200":
+          application/json: {}
+  createRelatedItemForEntity:
+    speakeasy-default-create-related-item-for-entity:
+      parameters:
+        path:
+          entityType: "DOCUMENT"
+          entityId: 93985
+      responses:
+        "200":
+          application/json: {}
+  createRelatedItemForEntity_1:
+    speakeasy-default-create-related-item-for-entity-1:
+      parameters:
+        path:
+          entityType: "LOCATION"
+          entityId: 420486
+      responses:
+        "200":
+          application/json: [{}]
+  createSecureRelatedItemForEntity:
+    speakeasy-default-create-secure-related-item-for-entity:
+      parameters:
+        path:
+          entityType: "KB_DOCUMENT"
+          entityId: 55964
+      responses:
+        "200":
+          application/json: {}
+  deleteRelatedItem:
+    speakeasy-default-delete-related-item:
+      parameters:
+        path:
+          relatedItemId: 571103
+  deleteRelatedItems:
+    speakeasy-default-delete-related-items:
+      parameters:
+        path:
+          entityType: "KB_DOCUMENT"
+          entityId: 935534
+  getAllRelatedItems:
+    speakeasy-default-get-all-related-items:
+      responses:
+        "200":
+          application/json: [{}]
+  getRelatedItemsForHostEntity:
+    speakeasy-default-get-related-items-for-host-entity:
+      parameters:
+        path:
+          entityType: "LOCATION"
+          entityId: 442502
+        query: {}
+      responses:
+        "200":
+          application/json: [{}]
+  getRelatedItemsWithEntity:
+    speakeasy-default-get-related-items-with-entity:
+      parameters:
+        path:
+          relEntityType: "CONTACT"
+          relEntityId: 610598
+      responses:
+        "200":
+          application/json: [{}, {}]
+  getRelatedItemsWithEntityType:
+    speakeasy-default-get-related-items-with-entity-type:
+      parameters:
+        path:
+          relatedEntityType: "END_USER"
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  getRelatedItemsWithHostEntityType:
+    speakeasy-default-get-related-items-with-host-entity-type:
+      parameters:
+        path:
+          entityType: "NODE"
+      responses:
+        "200":
+          application/json: [{}]
+  getIntegrityCheckJobs:
+    speakeasy-default-get-integrity-check-jobs:
+      parameters:
+        query:
+          include: "active"
+          pageSize: 10000
+      responses:
+        "200":
+          application/json: {}
+  submitIntegrityCheckJob:
+    speakeasy-default-submit-integrity-check-job:
+      responses:
+        "200":
+          application/json: {}
+  getBackupJobs:
+    speakeasy-default-get-backup-jobs:
+      parameters:
+        query:
+          include: "active"
+          pageSize: 10000
+      responses:
+        "200":
+          application/json: {}
+  create:
+    speakeasy-default-create:
+      requestBody:
+        application/json: {"clientId": 1, "ticketFormId": 1, "locationId": 1, "nodeId": 1, "subject": "CPU with problems", "description": {"public": true, "body": "new comment", "htmlBody": "<p>new comment</p>", "timeTracked": 60}, "status": "1000", "type": "PROBLEM", "cc": {"uids": ["1fa74a18-a329-40d8-b5b7-0a22624f7800", "b0558cb6-3c4e-438c-b8fd-5247c648bbbe"], "emails": ["[\"example1@example.com\",\"example2@example.com\"]"]}, "severity": "NONE", "priority": "NONE", "parentTicketId": 1, "tags": ["[\"tag1\",\"tag2\"]"], "attributes": [{"id": 1, "attributeId": 1, "value": "<value>"}, {"id": 1, "attributeId": 1, "value": "<value>"}]}
+      responses:
+        default:
+          application/json: {}
+  createComment:
+    speakeasy-default-create-comment:
+      parameters:
+        path:
+          ticketId: 874477
+      requestBody:
+        multipart/form-data: {"comment": {"public": true, "body": "new comment", "htmlBody": "<p>new comment</p>", "timeTracked": 60}}
+  getTicketById:
+    speakeasy-default-get-ticket-by-id:
+      parameters:
+        path:
+          ticketId: 996235
+      responses:
+        default:
+          application/json: {}
+  update:
+    speakeasy-default-update:
+      parameters:
+        path:
+          ticketId: 519881
+      requestBody:
+        application/json: {"version": 1, "clientId": 1, "ticketFormId": 1, "locationId": 1, "nodeId": 1, "subject": "CPU with problems", "status": "1000", "type": "PROBLEM", "cc": {"uids": ["1fa74a18-a329-40d8-b5b7-0a22624f7800", "b0558cb6-3c4e-438c-b8fd-5247c648bbbe"], "emails": ["[\"example1@example.com\",\"example2@example.com\"]"]}, "requesterUid": "d95fa7f0-e743-42ce-b47c-b60cc78135dd", "severity": "NONE", "priority": "NONE", "parentTicketId": 1, "tags": ["[\"tag1\",\"tag2\"]"], "attributes": [{"id": 1, "attributeId": 1, "value": "<value>"}, {"id": 1, "attributeId": 1, "value": "<value>"}, {"id": 1, "attributeId": 1, "value": "<value>"}]}
+      responses:
+        default:
+          application/json: {}
+  getTicketLogEntriesByTicketId:
+    speakeasy-default-get-ticket-log-entries-by-ticket-id:
+      parameters:
+        path:
+          ticketId: 806725
+        query:
+          pageSize: 500
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getTicketAttributes:
+    speakeasy-default-get-ticket-attributes:
+      responses:
+        default:
+          application/json: [{}]
+  getContacts:
+    speakeasy-default-get-contacts:
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getTicketFormById:
+    speakeasy-default-get-ticket-form-by-id:
+      parameters:
+        path:
+          id: 61487
+      responses:
+        default:
+          application/json: {}
+  getTicketForms:
+    speakeasy-default-get-ticket-forms:
+      responses:
+        default:
+          application/json: [{}, {}]
+  getAllStatuses:
+    speakeasy-default-get-all-statuses:
+      responses:
+        default:
+          application/json: [{}, {}]
+  getBoards:
+    speakeasy-default-get-boards:
+      responses:
+        default:
+          application/json: [{}]
+  getTicketsByBoard:
+    speakeasy-default-get-tickets-by-board:
+      parameters:
+        path:
+          boardId: 771882
+      responses:
+        default:
+          application/json: {}
+  getAllUserAndContacts:
+    speakeasy-default-get-all-user-and-contacts:
+      parameters:
+        query:
+          pageSize: 50
+          anchorNaturalId: 0
+      responses:
+        "200":
+          application/json: [{}, {}]
+  getDevice:
+    speakeasy-default-get-device:
+      parameters:
+        path:
+          id: 700953
+      responses:
+        "200":
+          application/json: {}
+  getDeviceActiveJobs:
+    speakeasy-default-get-device-active-jobs:
+      parameters:
+        path:
+          id: 445995
+        query: {}
+      responses:
+        default:
+          application/json: [{}]
+  getDeviceActivities:
+    speakeasy-default-get-device-activities:
+      parameters:
+        path:
+          id: 729712
+        query:
+          pageSize: 200
+      responses:
+        default:
+          application/json: {}
+  getDeviceAlerts:
+    speakeasy-default-get-device-alerts:
+      parameters:
+        path:
+          id: 531355
+        query: {}
+      responses:
+        default:
+          application/json: [{}]
+  getDeviceDiskDrives:
+    speakeasy-default-get-device-disk-drives:
+      parameters:
+        path:
+          id: 398874
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDeviceInstalledOSPatches:
+    speakeasy-default-get-device-installed-OS-patches:
+      parameters:
+        path:
+          id: 685935
+        query: {}
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDeviceInstalledSoftwarePatches:
+    speakeasy-default-get-device-installed-software-patches:
+      parameters:
+        path:
+          id: 533654
+        query: {}
+      responses:
+        default:
+          application/json: [{}, {}]
+  getDeviceLastLoggedOnUser:
+    speakeasy-default-get-device-last-logged-on-user:
+      parameters:
+        path:
+          id: 324433
+      responses:
+        default:
+          application/json: {}
+  getDeviceNetworkInterfaces:
+    speakeasy-default-get-device-network-interfaces:
+      parameters:
+        path:
+          id: 876659
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDevicePendingFailedRejectedOSPatches:
+    speakeasy-default-get-device-pending-failed-rejected-OS-patches:
+      parameters:
+        path:
+          id: 114890
+        query: {}
+      responses:
+        default:
+          application/json: [{}]
+  getDevicePendingFailedRejectedSoftwarePatches:
+    speakeasy-default-get-device-pending-failed-rejected-software-patches:
+      parameters:
+        path:
+          id: 852494
+        query: {}
+      responses:
+        default:
+          application/json: [{}, {}]
+  getDeviceProcessors:
+    speakeasy-default-get-device-processors:
+      parameters:
+        path:
+          id: 867659
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDeviceServices:
+    speakeasy-default-get-device-services:
+      parameters:
+        path:
+          id: 808416
+        query: {}
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getDeviceSoftware:
+    speakeasy-default-get-device-software:
+      parameters:
+        path:
+          id: 716699
+      responses:
+        default:
+          application/json: [{}]
+  getDeviceVolumes:
+    speakeasy-default-get-device-volumes:
+      parameters:
+        path:
+          id: 94124
+        query: {}
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getNodeCustomFields:
+    speakeasy-default-get-node-custom-fields:
+      parameters:
+        path:
+          id: 528241
+        query: {}
+      responses:
+        default:
+          application/json: {"key": {}, "key1": {}}
+  updateNodeAttributeValues:
+    speakeasy-default-update-node-attribute-values:
+      parameters:
+        path:
+          id: 131659
+  getPolicyOverrides:
+    speakeasy-default-get-policy-overrides:
+      parameters:
+        path:
+          id: 407129
+      responses:
+        default:
+          application/json: {}
+  getGroupDeviceIds:
+    speakeasy-default-get-group-device-ids:
+      parameters:
+        path:
+          id: 146852
+      responses:
+        default:
+          application/json: [570491]
+  getOrganizationLocations:
+    speakeasy-default-get-organization-locations:
+      parameters:
+        path:
+          id: 648805
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getEndUsers:
+    speakeasy-default-get-end-users:
+      parameters:
+        path:
+          id: 421893
+        query:
+          includeRoles: false
+      responses:
+        default:
+          application/json: [{}, {}, {}]
+  getLocationUsage:
+    speakeasy-default-get-location-usage:
+      parameters:
+        path:
+          id: 41933
+          locationId: 122024
+      responses:
+        "200":
+          application/json: {}
+  getNodeCustomFields_1:
+    speakeasy-default-get-node-custom-fields-1:
+      parameters:
+        path:
+          id: 838038
+      responses:
+        default:
+          application/json: {"key": {}}
+  updateNodeAttributeValues_1:
+    speakeasy-default-update-node-attribute-values-1:
+      parameters:
+        path:
+          id: 396577
+  getOrganization:
+    speakeasy-default-get-organization:
+      parameters:
+        path:
+          id: 473532
+      responses:
+        default:
+          application/json: {}
+  getOrganizationDevices:
+    speakeasy-default-get-organization-devices:
+      parameters:
+        path:
+          id: 315165
+        query: {}
+      responses:
+        default:
+          application/json: [{}]
+  getOrganizationLocationUsage:
+    speakeasy-default-get-organization-location-usage:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+  getNodeCustomFields_2:
+    speakeasy-default-get-node-custom-fields-2:
+      parameters:
+        path:
+          id: 360277
+          locationId: 912137
+        query: {}
+      responses:
+        default:
+          application/json: {"key": {}}
+  updateNodeAttributeValues_2:
+    speakeasy-default-update-node-attribute-values-2:
+      parameters:
+        path:
+          id: 82022
+          locationId: 511611
+  getAntivirusStatusReport:
+    speakeasy-default-get-antivirus-status-report:
+      responses:
+        default:
+          application/json: {}
+  getAntivirusThreats:
+    speakeasy-default-get-antivirus-threats:
+      responses:
+        default:
+          application/json: {}
+  getComputerSystems:
+    speakeasy-default-get-computer-systems:
+      responses:
+        default:
+          application/json: {}
+  getCustomFieldsDetailedReport:
+    speakeasy-default-get-custom-fields-detailed-report:
+      parameters:
+        query:
+          pageSize: 1000
+      responses:
+        default:
+          application/json: {}
+  getCustomFieldsReport:
+    speakeasy-default-get-custom-fields-report:
+      parameters:
+        query:
+          pageSize: 1000
+      responses:
+        default:
+          application/json: {}
+  getDeviceHealthReport:
+    speakeasy-default-get-device-health-report:
+      responses:
+        default:
+          application/json: {}
+  getDeviceUsage:
+    speakeasy-default-get-device-usage:
+      responses:
+        "200":
+          application/json: {}
+  getDiskDrives:
+    speakeasy-default-get-disk-drives:
+      responses:
+        default:
+          application/json: {}
+  getInstalledOSPatches:
+    speakeasy-default-get-installed-OS-patches:
+      responses:
+        default:
+          application/json: {}
+  getInstalledSoftwarePatches:
+    speakeasy-default-get-installed-software-patches:
+      responses:
+        default:
+          application/json: {}
+  getLastLoggedOnUsersReport:
+    speakeasy-default-get-last-logged-on-users-report:
+      parameters:
+        query:
+          pageSize: 1000
+      responses:
+        default:
+          application/json: {}
+  getNetworkInterfaces:
+    speakeasy-default-get-network-interfaces:
+      responses:
+        default:
+          application/json: {}
+  getOperatingSystems:
+    speakeasy-default-get-operating-systems:
+      responses:
+        default:
+          application/json: {}
+  getPendingFailedRejectedOSPatches:
+    speakeasy-default-get-pending-failed-rejected-OS-patches:
+      responses:
+        default:
+          application/json: {}
+  getPendingFailedRejectedSoftwarePatches:
+    speakeasy-default-get-pending-failed-rejected-software-patches:
+      responses:
+        default:
+          application/json: {}
+  getPolicyOverrides_1:
+    speakeasy-default-get-policy-overrides-1:
+      parameters:
+        query:
+          pageSize: 1000
+      responses:
+        default:
+          application/json: {}
+  getProcessors:
+    speakeasy-default-get-processors:
+      responses:
+        default:
+          application/json: {}
+  getRAIDControllerReport:
+    speakeasy-default-get-RAID-controller-report:
+      responses:
+        default:
+          application/json: {}
+  getRAIDDriveReport:
+    speakeasy-default-get-RAID-drive-report:
+      responses:
+        default:
+          application/json: {}
+  getScopedCustomFieldsDetailedReport:
+    speakeasy-default-get-scoped-custom-fields-detailed-report:
+      parameters:
+        query:
+          pageSize: 1000
+          scopes: "all"
+      responses:
+        default:
+          application/json: {}
+  getScopedCustomFieldsReport:
+    speakeasy-default-get-scoped-custom-fields-report:
+      parameters:
+        query:
+          pageSize: 1000
+          scopes: "all"
+      responses:
+        default:
+          application/json: {}
+  getSoftware:
+    speakeasy-default-get-software:
+      responses:
+        default:
+          application/json: {}
+  getVolumes:
+    speakeasy-default-get-volumes:
+      responses:
+        default:
+          application/json: {}
+  getWindowsServicesReport:
+    speakeasy-default-get-windows-services-report:
+      parameters:
+        query:
+          pageSize: 1000
+      responses:
+        default:
+          application/json: {}
+examplesVersion: 1.0.0
+generatedTests: {}

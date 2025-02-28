@@ -1,0 +1,16 @@
+# GetSoftwareResults
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `install_date`                                                       | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_minus_sign:                                                   | Installation Date                                                    |
+| `location`                                                           | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Location                                                             |
+| `name`                                                               | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Product Name                                                         |
+| `publisher`                                                          | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Publisher                                                            |
+| `size`                                                               | *Optional[int]*                                                      | :heavy_minus_sign:                                                   | Size on disk                                                         |
+| `version`                                                            | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Version                                                              |
+| `product_code`                                                       | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Product Code                                                         |
+| `device_id`                                                          | *Optional[int]*                                                      | :heavy_minus_sign:                                                   | Device identifier                                                    |
+| `timestamp`                                                          | *Optional[float]*                                                    | :heavy_minus_sign:                                                   | Date/Time when data was collected/updated                            |

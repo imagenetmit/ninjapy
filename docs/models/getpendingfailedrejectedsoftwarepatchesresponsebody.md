@@ -1,0 +1,11 @@
+# GetPendingFailedRejectedSoftwarePatchesResponseBody
+
+default response
+
+
+## Fields
+
+| Field                                                                                                                        | Type                                                                                                                         | Required                                                                                                                     | Description                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `cursor`                                                                                                                     | [Optional[models.GetPendingFailedRejectedSoftwarePatchesCursor]](../models/getpendingfailedrejectedsoftwarepatchescursor.md) | :heavy_minus_sign:                                                                                                           | N/A                                                                                                                          |
+| `results`                                                                                                                    | List[[models.GetPendingFailedRejectedSoftwarePatchesResults](../models/getpendingfailedrejectedsoftwarepatchesresults.md)]   | :heavy_minus_sign:                                                                                                           | N/A                                                                                                                          |

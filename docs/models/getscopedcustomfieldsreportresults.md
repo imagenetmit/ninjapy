@@ -1,0 +1,10 @@
+# GetScopedCustomFieldsReportResults
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `scope`                                                                                               | [Optional[models.GetScopedCustomFieldsReportScope]](../models/getscopedcustomfieldsreportscope.md)    | :heavy_minus_sign:                                                                                    | Value definition scope (entity type)                                                                  |
+| `entity_id`                                                                                           | *Optional[int]*                                                                                       | :heavy_minus_sign:                                                                                    | Entity identifier (device, organization, location)                                                    |
+| `fields`                                                                                              | Dict[str, [models.GetScopedCustomFieldsReportFields](../models/getscopedcustomfieldsreportfields.md)] | :heavy_minus_sign:                                                                                    | Field values                                                                                          |

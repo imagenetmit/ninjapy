@@ -1,0 +1,16 @@
+# GetActiveJobsReferences
+
+Expanded entity references
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `organization`                                                                       | [Optional[models.GetActiveJobsOrganization]](../models/getactivejobsorganization.md) | :heavy_minus_sign:                                                                   | Organization                                                                         |
+| `location`                                                                           | [Optional[models.GetActiveJobsLocation]](../models/getactivejobslocation.md)         | :heavy_minus_sign:                                                                   | Location                                                                             |
+| `role_policy`                                                                        | [Optional[models.GetActiveJobsRolePolicy]](../models/getactivejobsrolepolicy.md)     | :heavy_minus_sign:                                                                   | Assigned policy (overrides organization and location policy mapping)                 |
+| `policy`                                                                             | [Optional[models.GetActiveJobsPolicy]](../models/getactivejobspolicy.md)             | :heavy_minus_sign:                                                                   | Assigned policy (overrides organization and location policy mapping)                 |
+| `role`                                                                               | [Optional[models.GetActiveJobsRole]](../models/getactivejobsrole.md)                 | :heavy_minus_sign:                                                                   | Device Role                                                                          |
+| `backup_usage`                                                                       | [Optional[models.GetActiveJobsBackupUsage]](../models/getactivejobsbackupusage.md)   | :heavy_minus_sign:                                                                   | Device Backup Usage                                                                  |
+| `warranty`                                                                           | [Optional[models.GetActiveJobsWarranty]](../models/getactivejobswarranty.md)         | :heavy_minus_sign:                                                                   | Warranty Info                                                                        |

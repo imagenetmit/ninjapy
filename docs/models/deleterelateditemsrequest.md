@@ -1,0 +1,9 @@
+# DeleteRelatedItemsRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `entity_type`                                                                                      | [models.DeleteRelatedItemsPathParamEntityType](../models/deleterelateditemspathparamentitytype.md) | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `entity_id`                                                                                        | *int*                                                                                              | :heavy_check_mark:                                                                                 | N/A                                                                                                |

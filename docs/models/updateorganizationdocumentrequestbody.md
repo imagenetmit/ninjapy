@@ -1,0 +1,10 @@
+# UpdateOrganizationDocumentRequestBody
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `document_name`                                                                                     | *Optional[str]*                                                                                     | :heavy_minus_sign:                                                                                  | Document Name                                                                                       |
+| `document_description`                                                                              | *Optional[str]*                                                                                     | :heavy_minus_sign:                                                                                  | Document Description                                                                                |
+| `fields`                                                                                            | Dict[str, [models.UpdateOrganizationDocumentFields](../models/updateorganizationdocumentfields.md)] | :heavy_minus_sign:                                                                                  | Fields                                                                                              |

@@ -1,0 +1,16 @@
+# GetDevicesOrganization
+
+Organization
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `name`                                                                                 | *Optional[str]*                                                                        | :heavy_minus_sign:                                                                     | Organization full name                                                                 |
+| `description`                                                                          | *Optional[str]*                                                                        | :heavy_minus_sign:                                                                     | Organization Description                                                               |
+| `user_data`                                                                            | Dict[str, *Any*]                                                                       | :heavy_minus_sign:                                                                     | Custom attributes                                                                      |
+| `node_approval_mode`                                                                   | [Optional[models.GetDevicesNodeApprovalMode]](../models/getdevicesnodeapprovalmode.md) | :heavy_minus_sign:                                                                     | Device Approval Mode                                                                   |
+| `tags`                                                                                 | List[*str*]                                                                            | :heavy_minus_sign:                                                                     | Tags                                                                                   |
+| `fields`                                                                               | Dict[str, [models.GetDevicesSystemFields](../models/getdevicessystemfields.md)]        | :heavy_minus_sign:                                                                     | Custom Fields                                                                          |
+| `id`                                                                                   | *Optional[int]*                                                                        | :heavy_minus_sign:                                                                     | Organization identifier                                                                |

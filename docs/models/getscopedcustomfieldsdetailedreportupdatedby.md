@@ -1,0 +1,11 @@
+# GetScopedCustomFieldsDetailedReportUpdatedBy
+
+Value source (who/what updated the value)
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `source`                                                                                                             | [Optional[models.GetScopedCustomFieldsDetailedReportSource]](../models/getscopedcustomfieldsdetailedreportsource.md) | :heavy_minus_sign:                                                                                                   | N/A                                                                                                                  |
+| `user`                                                                                                               | [Optional[models.GetScopedCustomFieldsDetailedReportUser]](../models/getscopedcustomfieldsdetailedreportuser.md)     | :heavy_minus_sign:                                                                                                   | N/A                                                                                                                  |

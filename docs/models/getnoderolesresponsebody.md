@@ -1,0 +1,18 @@
+# GetNodeRolesResponseBody
+
+Device Role
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `id`                                                                         | *Optional[int]*                                                              | :heavy_minus_sign:                                                           | Device Role identifier                                                       |
+| `name`                                                                       | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Name                                                                         |
+| `description`                                                                | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Description                                                                  |
+| `node_class`                                                                 | [Optional[models.GetNodeRolesNodeClass]](../models/getnoderolesnodeclass.md) | :heavy_minus_sign:                                                           | Node Class                                                                   |
+| `custom`                                                                     | *Optional[bool]*                                                             | :heavy_minus_sign:                                                           | Is custom node role?                                                         |
+| `chassis_type`                                                               | [Optional[models.ChassisType]](../models/chassistype.md)                     | :heavy_minus_sign:                                                           | Chassis Type                                                                 |
+| `created`                                                                    | *Optional[float]*                                                            | :heavy_minus_sign:                                                           | Date created                                                                 |
+| `tags`                                                                       | List[*str*]                                                                  | :heavy_minus_sign:                                                           | Tags                                                                         |
+| `fields`                                                                     | Dict[str, [models.GetNodeRolesFields](../models/getnoderolesfields.md)]      | :heavy_minus_sign:                                                           | Custom Fields                                                                |

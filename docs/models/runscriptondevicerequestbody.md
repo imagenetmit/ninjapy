@@ -1,0 +1,12 @@
+# RunScriptOnDeviceRequestBody
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `type`                                                                       | [Optional[models.RunScriptOnDeviceType]](../models/runscriptondevicetype.md) | :heavy_minus_sign:                                                           | Type                                                                         |
+| `id`                                                                         | *Optional[int]*                                                              | :heavy_minus_sign:                                                           | Script identifier                                                            |
+| `uid`                                                                        | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Built-in action identifier                                                   |
+| `parameters`                                                                 | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Action/Script parameters                                                     |
+| `run_as`                                                                     | *Optional[str]*                                                              | :heavy_minus_sign:                                                           | Credential role/identifier                                                   |

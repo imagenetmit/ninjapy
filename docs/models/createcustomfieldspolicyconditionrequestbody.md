@@ -1,0 +1,20 @@
+# CreateCustomFieldsPolicyConditionRequestBody
+
+Custom fields policy condition create request payload
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `enabled`                                                              | *Optional[bool]*                                                       | :heavy_minus_sign:                                                     | Policy condition enabled                                               |
+| `display_name`                                                         | *Optional[str]*                                                        | :heavy_minus_sign:                                                     | Policy condition display name                                          |
+| `severity`                                                             | [Optional[models.Severity]](../models/severity.md)                     | :heavy_minus_sign:                                                     | Policy condition severity                                              |
+| `priority`                                                             | [Optional[models.Priority]](../models/priority.md)                     | :heavy_minus_sign:                                                     | Policy condition priority                                              |
+| `channels`                                                             | List[*int*]                                                            | :heavy_minus_sign:                                                     | Policy condition notification channels                                 |
+| `scripts`                                                              | List[[models.Scripts](../models/scripts.md)]                           | :heavy_minus_sign:                                                     | Policy condition scripts                                               |
+| `notification_action`                                                  | [Optional[models.NotificationAction]](../models/notificationaction.md) | :heavy_minus_sign:                                                     | Policy condition notification action                                   |
+| `notify_on_reset`                                                      | *Optional[bool]*                                                       | :heavy_minus_sign:                                                     | Policy condition notify on reset                                       |
+| `reset_threshold`                                                      | *Optional[int]*                                                        | :heavy_minus_sign:                                                     | Policy condition reset threshold (seconds)                             |
+| `match_all`                                                            | List[[models.MatchAll](../models/matchall.md)]                         | :heavy_minus_sign:                                                     | Custom field value must meet all conditions                            |
+| `match_any`                                                            | List[[models.MatchAny](../models/matchany.md)]                         | :heavy_minus_sign:                                                     | Custom field value must meet any conditions                            |

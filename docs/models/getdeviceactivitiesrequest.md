@@ -1,0 +1,16 @@
+# GetDeviceActivitiesRequest
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `id`                                                                 | *int*                                                                | :heavy_check_mark:                                                   | Device identifier                                                    |
+| `older_than`                                                         | *Optional[int]*                                                      | :heavy_minus_sign:                                                   | Return activities recorded that are newer than specified activity ID |
+| `newer_than`                                                         | *Optional[int]*                                                      | :heavy_minus_sign:                                                   | Return activities recorded that are older than specified activity ID |
+| `activity_type`                                                      | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Return activities of type                                            |
+| `status`                                                             | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Return activities with status(es)                                    |
+| `series_uid`                                                         | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Return activities related to alert (series)                          |
+| `page_size`                                                          | *Optional[int]*                                                      | :heavy_minus_sign:                                                   | Limit number of activities to return                                 |
+| `lang`                                                               | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Language tag                                                         |
+| `tz`                                                                 | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | Time Zone                                                            |

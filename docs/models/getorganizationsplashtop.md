@@ -1,0 +1,13 @@
+# GetOrganizationSplashtop
+
+Feature/product/integration configuration settings
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `product`                                                                                               | *Optional[str]*                                                                                         | :heavy_minus_sign:                                                                                      | Configured product code                                                                                 |
+| `enabled`                                                                                               | *Optional[bool]*                                                                                        | :heavy_minus_sign:                                                                                      | Is enabled                                                                                              |
+| `targets`                                                                                               | List[*str*]                                                                                             | :heavy_minus_sign:                                                                                      | Feature deployment targets                                                                              |
+| `options`                                                                                               | Dict[str, [models.GetOrganizationOrganizationOptions](../models/getorganizationorganizationoptions.md)] | :heavy_minus_sign:                                                                                      | Feature options                                                                                         |

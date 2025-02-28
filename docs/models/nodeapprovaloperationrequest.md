@@ -1,0 +1,9 @@
+# NodeApprovalOperationRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `mode`                                                                                             | [models.Mode](../models/mode.md)                                                                   | :heavy_check_mark:                                                                                 | Approval action to perform                                                                         |
+| `request_body`                                                                                     | [Optional[models.NodeApprovalOperationRequestBody]](../models/nodeapprovaloperationrequestbody.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

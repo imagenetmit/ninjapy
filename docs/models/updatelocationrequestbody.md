@@ -1,0 +1,13 @@
+# UpdateLocationRequestBody
+
+
+## Fields
+
+| Field                                                                       | Type                                                                        | Required                                                                    | Description                                                                 |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `name`                                                                      | *Optional[str]*                                                             | :heavy_minus_sign:                                                          | Location name                                                               |
+| `address`                                                                   | *Optional[str]*                                                             | :heavy_minus_sign:                                                          | Address                                                                     |
+| `description`                                                               | *Optional[str]*                                                             | :heavy_minus_sign:                                                          | Description                                                                 |
+| `user_data`                                                                 | Dict[str, *Any*]                                                            | :heavy_minus_sign:                                                          | Custom attributes                                                           |
+| `tags`                                                                      | List[*str*]                                                                 | :heavy_minus_sign:                                                          | Tags                                                                        |
+| `fields`                                                                    | Dict[str, [models.UpdateLocationFields](../models/updatelocationfields.md)] | :heavy_minus_sign:                                                          | Custom Fields                                                               |

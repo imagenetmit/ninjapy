@@ -1,0 +1,15 @@
+# GetLocationsResponseBody
+
+
+## Fields
+
+| Field                                                                   | Type                                                                    | Required                                                                | Description                                                             |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| `name`                                                                  | *Optional[str]*                                                         | :heavy_minus_sign:                                                      | Location name                                                           |
+| `address`                                                               | *Optional[str]*                                                         | :heavy_minus_sign:                                                      | Address                                                                 |
+| `description`                                                           | *Optional[str]*                                                         | :heavy_minus_sign:                                                      | Description                                                             |
+| `user_data`                                                             | Dict[str, *Any*]                                                        | :heavy_minus_sign:                                                      | Custom attributes                                                       |
+| `tags`                                                                  | List[*str*]                                                             | :heavy_minus_sign:                                                      | Tags                                                                    |
+| `fields`                                                                | Dict[str, [models.GetLocationsFields](../models/getlocationsfields.md)] | :heavy_minus_sign:                                                      | Custom Fields                                                           |
+| `id`                                                                    | *Optional[int]*                                                         | :heavy_minus_sign:                                                      | Location identifier                                                     |
+| `organization_id`                                                       | *Optional[int]*                                                         | :heavy_minus_sign:                                                      | Organization identifier                                                 |

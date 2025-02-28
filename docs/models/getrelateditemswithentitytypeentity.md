@@ -1,0 +1,9 @@
+# GetRelatedItemsWithEntityTypeEntity
+
+Entity
+
+
+## Fields
+
+| Field       | Type        | Required    | Description |
+| ----------- | ----------- | ----------- | ----------- |

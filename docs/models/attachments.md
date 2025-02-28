@@ -1,0 +1,12 @@
+# Attachments
+
+Lists the files associated with the article
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `id`                                                                                                     | *Optional[int]*                                                                                          | :heavy_minus_sign:                                                                                       | Identifier                                                                                               |
+| `upload_status`                                                                                          | [Optional[models.UploadStatus]](../models/uploadstatus.md)                                               | :heavy_minus_sign:                                                                                       | Upload status                                                                                            |
+| `metadata`                                                                                               | [Optional[models.CreateKnowledgeBaseArticlesMetadata]](../models/createknowledgebasearticlesmetadata.md) | :heavy_minus_sign:                                                                                       | Attachment metadata                                                                                      |

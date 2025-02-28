@@ -1,0 +1,36 @@
+speakeasyVersion: 1.507.0
+sources:
+    NinjaOne Public API 2.0:
+        sourceNamespace: ninja-one-public-api-2-0
+        sourceRevisionDigest: sha256:b1d5903aa977f69b3575232761ec5a38b6099b321b775eaa65f6dfa717346e54
+        sourceBlobDigest: sha256:230158643cf5efa720e6c8c8c2f5ad653d7610ddbcb3c3280818360c73127f3f
+        tags:
+            - latest
+            - 2.0.9-draft
+targets:
+    ninjapy:
+        source: NinjaOne Public API 2.0
+        sourceNamespace: ninja-one-public-api-2-0
+        sourceRevisionDigest: sha256:b1d5903aa977f69b3575232761ec5a38b6099b321b775eaa65f6dfa717346e54
+        sourceBlobDigest: sha256:230158643cf5efa720e6c8c8c2f5ad653d7610ddbcb3c3280818360c73127f3f
+        codeSamplesNamespace: ninja-one-public-api-2-0-python-code-samples
+        codeSamplesRevisionDigest: sha256:0054f1d97d08b4f44ad3de1934602b7bc39f8c59e9860349e8a5dd9852672949
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        NinjaOne Public API 2.0:
+            inputs:
+                - location: https://app.ninjarmm.com/apidocs/NinjaRMM-API-v2.json
+            registry:
+                location: registry.speakeasyapi.dev/imagenet/managedit/ninja-one-public-api-2-0
+    targets:
+        ninjapy:
+            target: python
+            source: NinjaOne Public API 2.0
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/imagenet/managedit/ninja-one-public-api-2-0-python-code-samples
+                labelOverride:
+                    fixedValue: Python (SDK)
+                blocking: false

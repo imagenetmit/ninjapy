@@ -1,0 +1,16 @@
+# GetDeviceAlertsReferences
+
+Expanded entity references
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `organization`                                                                           | [Optional[models.GetDeviceAlertsOrganization]](../models/getdevicealertsorganization.md) | :heavy_minus_sign:                                                                       | Organization                                                                             |
+| `location`                                                                               | [Optional[models.GetDeviceAlertsLocation]](../models/getdevicealertslocation.md)         | :heavy_minus_sign:                                                                       | Location                                                                                 |
+| `role_policy`                                                                            | [Optional[models.GetDeviceAlertsRolePolicy]](../models/getdevicealertsrolepolicy.md)     | :heavy_minus_sign:                                                                       | Assigned policy (overrides organization and location policy mapping)                     |
+| `policy`                                                                                 | [Optional[models.GetDeviceAlertsPolicy]](../models/getdevicealertspolicy.md)             | :heavy_minus_sign:                                                                       | Assigned policy (overrides organization and location policy mapping)                     |
+| `role`                                                                                   | [Optional[models.GetDeviceAlertsRole]](../models/getdevicealertsrole.md)                 | :heavy_minus_sign:                                                                       | Device Role                                                                              |
+| `backup_usage`                                                                           | [Optional[models.GetDeviceAlertsBackupUsage]](../models/getdevicealertsbackupusage.md)   | :heavy_minus_sign:                                                                       | Device Backup Usage                                                                      |
+| `warranty`                                                                               | [Optional[models.GetDeviceAlertsWarranty]](../models/getdevicealertswarranty.md)         | :heavy_minus_sign:                                                                       | Warranty Info                                                                            |

@@ -1,0 +1,12 @@
+# GetGlobalKnowledgeBaseArticlesAttachments
+
+Lists the files associated with the article
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `id`                                                                                                                   | *Optional[int]*                                                                                                        | :heavy_minus_sign:                                                                                                     | Identifier                                                                                                             |
+| `upload_status`                                                                                                        | [Optional[models.GetGlobalKnowledgeBaseArticlesUploadStatus]](../models/getglobalknowledgebasearticlesuploadstatus.md) | :heavy_minus_sign:                                                                                                     | Upload status                                                                                                          |
+| `metadata`                                                                                                             | [Optional[models.GetGlobalKnowledgeBaseArticlesMetadata]](../models/getglobalknowledgebasearticlesmetadata.md)         | :heavy_minus_sign:                                                                                                     | Attachment metadata                                                                                                    |
