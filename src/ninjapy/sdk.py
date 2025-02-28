@@ -5,6 +5,7 @@ from .httpclient import AsyncHttpClient, ClientOwner, HttpClient, close_clients
 from .sdkconfiguration import SDKConfiguration
 from .utils.logger import Logger, get_default_logger
 from .utils.retries import RetryConfig
+from .utils.oauth import OAuth2ClientCredentials, OAuth2RefreshToken
 import httpx
 from ninjapy import models
 from ninjapy._hooks import SDKHooks
@@ -94,6 +95,22 @@ class Ninjapy(BaseSDK):
         :param retry_config: The retry configuration to use for all supported methods
         :param timeout_ms: Optional request timeout applied to each operation in milliseconds
         """
+        if security and isinstance(security, models.Security) and security.client_credentials:
+            # Initialize OAuth2 client
+            oauth2_client = OAuth2ClientCredentials(
+                token_url=security.client_credentials.token_url,
+                client_id=security.client_credentials.client_id,
+                client_secret=security.client_credentials.client_secret,
+                scope=security.client_credentials.scope,
+            )
+            
+            # Create a security provider that fetches tokens as needed
+            async def get_security():
+                token = await oauth2_client.get_token()
+                return models.Security(oauth2=token)
+            
+            security = get_security
+
         client_supplied = True
         if client is None:
             client = httpx.Client()

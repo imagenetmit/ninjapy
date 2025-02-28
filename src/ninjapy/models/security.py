@@ -3,13 +3,28 @@
 from __future__ import annotations
 from ninjapy.types import BaseModel
 from ninjapy.utils import FieldMetadata, SecurityMetadata
-from typing import Optional
+from typing import Optional, Union, Callable
 from typing_extensions import Annotated, NotRequired, TypedDict
+from ..utils.oauth import OAuth2ClientCredentials
 
 
 class SecurityTypedDict(TypedDict):
     oauth2: NotRequired[str]
     session_key: NotRequired[str]
+
+
+class ClientCredentials(BaseModel):
+    token_url: str
+    client_id: str
+    client_secret: str
+    scope: str = ""
+
+
+class RefreshTokenCredentials(BaseModel):
+    token_url: str
+    client_id: str
+    client_secret: str
+    refresh_token: str
 
 
 class Security(BaseModel):
@@ -36,3 +51,43 @@ class Security(BaseModel):
             )
         ),
     ] = None
+
+    client_credentials: Optional[ClientCredentials] = None
+
+    refresh_token_credentials: Optional[RefreshTokenCredentials] = None
+
+    @classmethod
+    def with_client_credentials(
+        cls,
+        token_url: str,
+        client_id: str,
+        client_secret: str,
+        scope: str = ""
+    ) -> "Security":
+        """Create a Security instance with client credentials."""
+        return cls(
+            client_credentials=ClientCredentials(
+                token_url=token_url,
+                client_id=client_id,
+                client_secret=client_secret,
+                scope=scope
+            )
+        )
+
+    @classmethod
+    def with_refresh_token(
+        cls,
+        token_url: str,
+        client_id: str,
+        client_secret: str,
+        refresh_token: str
+    ) -> "Security":
+        """Create a Security instance with refresh token credentials."""
+        return cls(
+            refresh_token_credentials=RefreshTokenCredentials(
+                token_url=token_url,
+                client_id=client_id,
+                client_secret=client_secret,
+                refresh_token=refresh_token
+            )
+        )
