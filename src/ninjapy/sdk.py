@@ -5,7 +5,7 @@ from .httpclient import AsyncHttpClient, ClientOwner, HttpClient, close_clients
 from .sdkconfiguration import SDKConfiguration
 from .utils.logger import Logger, get_default_logger
 from .utils.retries import RetryConfig
-from .utils.oauth import OAuth2ClientCredentials, OAuth2RefreshToken
+from .utils.oauth import OAuth2ClientCredentials
 import httpx
 from ninjapy import models
 from ninjapy._hooks import SDKHooks
